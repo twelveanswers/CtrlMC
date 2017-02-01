@@ -1,0 +1,60 @@
+package escapemc.Command;
+
+import java.util.ArrayList;
+
+import escapemc.Command.commands.CommandFullbright;
+import escapemc.Command.commands.CommandHelp;
+import escapemc.Util.ChatUtil;
+
+public class CommandManager {
+
+	public static ArrayList<Command> Commands = new ArrayList<Command>();
+	
+	public static void RegisterCommands() {
+		
+		AddCommand(new CommandHelp());
+		
+	}
+	
+	private static void AddCommand(Command c) {
+		
+		Commands.add(c);
+		
+	}
+	
+	public static void callCommand(String s) {
+		
+		if(s.startsWith("-")) {
+			
+			String msg = s.replace("-", "");
+			String[] a = msg.split(" ");
+			String command = a[0];
+			String b = msg.replaceAll(command, "");
+			for(Command c : Commands) {
+				
+				if(c.Command.equalsIgnoreCase(command)) {
+					
+					try {
+						
+						c.Command(b.split(" "));
+						
+					} catch (Exception e) {
+
+						ChatUtil.SendChatMessage("Oops! Something went wrong. -help for help!");
+					
+					}
+					
+					return;
+					
+				}
+				
+			}
+			
+			ChatUtil.SendChatMessage("That Command was not found! -help for all CtrlMC Commands!");
+			
+		}
+		
+	}
+	
+	
+}

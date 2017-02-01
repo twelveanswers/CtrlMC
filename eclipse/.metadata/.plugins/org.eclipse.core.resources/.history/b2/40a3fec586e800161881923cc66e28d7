@@ -1,0 +1,34 @@
+package escapemc.Command.commands;
+
+import escapemc.Command.Command;
+import escapemc.Command.CommandManager;
+import escapemc.module.modules.Fullbright;
+
+public class CommandFullbright extends Command {
+
+	public CommandFullbright() {
+		super("fullbright", "-fullbright", "Toggles Fullbright");
+	}
+
+	@Override
+	public void Command(String[] args) {
+
+		for(Command c : CommandManager.Commands) {
+			
+			if(Fullbright.isEnabled = true) {
+				
+				Fullbright.isEnabled = false;
+				
+			}
+			else if(Fullbright.isEnabled = false){
+				
+				Fullbright.isEnabled = true;
+				
+			}
+			
+		}
+
+		
+	}
+
+}

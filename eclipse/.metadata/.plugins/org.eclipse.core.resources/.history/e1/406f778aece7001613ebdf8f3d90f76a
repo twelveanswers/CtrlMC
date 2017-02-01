@@ -1,0 +1,57 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.Event.Event;
+import escapemc.Event.events.EventSendPacket;
+import escapemc.module.Module;
+
+public class FreeCam extends Module {
+
+	public FreeCam() {
+		super("FreeCam", Keyboard.KEY_J, Category.RENDER);
+
+	}
+	
+	public void Tick() {
+		
+		if(mc.gameSettings.keyBindJump.isPressed()) {
+			
+			mc.thePlayer.motionY = 0.5;
+			
+		}
+		else if(mc.gameSettings.keyBindSneak.isPressed()){
+			
+			mc.thePlayer.motionY = -0.5;
+			
+		}
+		else{
+			
+			mc.thePlayer.motionY = 0;
+			
+		}
+		if(mc.gameSettings.keyBindForward.isPressed() && (mc.gameSettings.keyBindLeft.isPressed() &&(mc.gameSettings.keyBindRight.isPressed() &&(mc.gameSettings.keyBindBack.isPressed())))) {
+			
+			mc.thePlayer.motionX =0;
+			mc.thePlayer.motionZ =0;
+			
+		}
+		
+	}
+	
+	
+	public void Event(Event ev) {
+		
+		if(ev instanceof EventSendPacket) {
+			
+			EventSendPacket e = (EventSendPacket) ev;
+			e.cancel = true;
+			
+		}
+		
+	}
+
+	
+	
+	
+}

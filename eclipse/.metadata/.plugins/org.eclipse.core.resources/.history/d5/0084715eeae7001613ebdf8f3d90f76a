@@ -1,0 +1,17 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Module;
+
+public class FreeCam extends Module {
+
+	public FreeCam() {
+		super("FreeCam", Keyboard.KEY_J, Category.PLAYER);
+
+	}
+
+	
+	
+	
+}

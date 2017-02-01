@@ -1,0 +1,13 @@
+package escapemc.Gui.Ingame;
+
+public class CtrlMCOverlay {
+
+	public static void drawOverlay() {
+		
+		
+		
+	}
+	
+	
+	
+}

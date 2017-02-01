@@ -1,0 +1,8 @@
+package escapemc.module;
+
+public class ModuleManager {
+
+	public static ArrayList<Module> mods;
+	
+	
+}

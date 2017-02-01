@@ -1,0 +1,28 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Module;
+
+public class Fullbright extends Module {
+
+	@SuppressWarnings("null")
+	public Fullbright() {
+		
+		super("Fullbright", (Integer) null, Category.RENDER);
+	
+	}
+	
+	public void Tick() {
+		
+		mc.gameSettings.gammaSetting = 10F;
+		
+	}
+	
+	public void Disable() {
+		
+		mc.gameSettings.gammaSetting = 1F;
+		
+	}
+		
+}

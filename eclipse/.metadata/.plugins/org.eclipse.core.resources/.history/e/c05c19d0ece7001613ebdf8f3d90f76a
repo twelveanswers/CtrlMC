@@ -1,0 +1,32 @@
+package escapemc.module;
+
+import java.util.ArrayList;
+
+import escapemc.module.modules.Fly;
+
+public class ModuleManager {
+
+	public static ArrayList<Module> Modules = new ArrayList<Module>();
+	
+	
+	private static void addModule(Module m) {
+		
+		Modules.add(m);
+		
+	}
+
+
+	public static void registerModules() {
+
+		addModule(new Fly());
+		
+		
+	}
+	
+	
+	
+
+	
+
+}
+

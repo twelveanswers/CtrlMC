@@ -1,0 +1,23 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class Fullbright extends Module{
+
+	public Fullbright() {
+		super("Fullbright", Keyboard.KEY_APOSTROPHE, Category.RENDER);
+	}
+	
+	@Override
+	public void onUpdate() {
+		if(isToggled()){
+			mc.gameSettings.gammaSetting = 10F;
+		}else{
+			mc.gameSettings.gammaSetting = 1F;
+		}
+	}
+
+}

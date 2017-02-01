@@ -1,0 +1,44 @@
+package escapemc.Command.commands;
+
+import escapemc.Command.Command;
+import escapemc.Command.CommandManager;
+import escapemc.Util.ChatUtil;
+
+public class CommandHelp extends Command {
+
+	public CommandHelp() {
+		
+	}	
+		
+	@Override
+	public String getName() {
+
+		return "help";
+
+	}
+
+	@Override
+	public String getDescription() {
+
+		return "Lists all CtrlMC Commands.";
+	
+	}
+
+	@Override
+	public String getSyntax() {
+	
+		return "-help";
+
+	}
+
+	public void onCommand(String[] args) throws Exception {
+		
+		for(Command c : CommandManager.commands) {
+			
+			ChatUtil.SendChatMessage(c.getName() + ":"+ c.getDescription());
+			
+		}
+		
+	}
+	
+}

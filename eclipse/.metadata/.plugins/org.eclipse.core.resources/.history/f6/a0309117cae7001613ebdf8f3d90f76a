@@ -1,0 +1,34 @@
+package escapemc.main;
+
+import escapemc.module.ModuleManager;
+
+public class Main {
+	
+	private final String CLIENT_NAME = "CtrlMC";
+	
+	private static ModuleManager modManager;
+	
+	private static Main Main = new Main();
+	
+	public static Main getInstance() {
+		
+		return Main;
+		
+	}
+	
+	public static void initClient() {
+		
+		System.out.println("Loading CTRLMC Client...");
+		modManager = new ModuleManager();
+		
+	}
+	
+	public static ModuleManager getModuleManager() {
+		
+		return modManager;
+		
+	}
+	
+	
+	
+}

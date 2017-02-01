@@ -1,0 +1,18 @@
+package escapemc.Gui.Ingame;
+
+import net.minecraft.client.Minecraft;
+
+public class CtrlMCOverlay {
+
+	static Minecraft mc = Minecraft.getMinecraft();
+	
+	
+	public static void drawOverlay() {
+		
+		
+		
+	}
+	
+	
+	
+}

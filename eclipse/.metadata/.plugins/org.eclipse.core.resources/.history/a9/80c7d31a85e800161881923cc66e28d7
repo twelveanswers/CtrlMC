@@ -1,0 +1,17 @@
+package escapemc.Command.commands;
+
+import escapemc.Command.Command;
+
+public class CommandFullbright extends Command {
+
+	public CommandFullbright() {
+		super("-fullbright", "-fullbright", "Toggles Fullbright");
+	}
+
+	@Override
+	public void Command(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

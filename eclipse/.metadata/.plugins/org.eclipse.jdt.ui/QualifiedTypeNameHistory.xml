@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="escapemc.main.Main"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="org.lwjgl.opengl.Display"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="escapemc.Gui.Ingame.CtrlMCOverlay"/>
+<fullyQualifiedTypeName name="escapemc.Event.events.EventSendPacket"/>
+<fullyQualifiedTypeName name="escapemc.Event.EventHandler"/>
+<fullyQualifiedTypeName name="net.minecraft.network.Packet"/>
+<fullyQualifiedTypeName name="escapemc.Event.Event"/>
+<fullyQualifiedTypeName name="net.minecraft.util.math.BlockPos"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="net.minecraft.util.text.TextComponentString"/>
+<fullyQualifiedTypeName name="escapemc.Command.commands.CommandHelp"/>
+<fullyQualifiedTypeName name="escapemc.Command.CommandManager"/>
+<fullyQualifiedTypeName name="escapemc.main.CtrlMC"/>
+<fullyQualifiedTypeName name="escapemc.main.Reference"/>
+<fullyQualifiedTypeName name="escapemc.Command.commands.CommandFullbright"/>
+<fullyQualifiedTypeName name="escapemc.module.modules.Fullbright"/>
+<fullyQualifiedTypeName name="escapemc.Command.commands.CommandBind"/>
+<fullyQualifiedTypeName name="escapemc.module.ModuleManager"/>
+<fullyQualifiedTypeName name="net.java.games.input.Keyboard"/>
+<fullyQualifiedTypeName name="escapemc.module.Category"/>
+<fullyQualifiedTypeName name="java.awt.Button"/>
+<fullyQualifiedTypeName name="java.awt.Component"/>
+<fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+<fullyQualifiedTypeName name="escapemc.Util.ChatUtil"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,5 @@
+package escapemc.Command.commands;
+
+public class CommandFullbright {
+
+}

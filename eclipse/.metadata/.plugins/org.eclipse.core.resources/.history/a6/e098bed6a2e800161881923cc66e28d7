@@ -1,0 +1,83 @@
+package escapemc.module;
+
+import escapemc.Event.Event;
+import net.minecraft.client.Minecraft;
+
+public class Module {
+
+	public Minecraft mc = Minecraft.getMinecraft();
+	
+	public String Name;
+	
+	public int Keybind;
+	
+	public static Category Category;
+	
+	public boolean isEnabled;
+	
+	
+	public Module(String name, int bind, Category cat) {
+		
+		this.Name = name;
+		this.Keybind = bind;
+		this.Category = cat;
+		
+	}
+
+	public Module(String name, Category cat) {
+		
+		this.Name = name;
+		this.Category = cat;
+		
+	}
+
+	public void toggle() {
+		
+		if(isEnabled == true) {
+			
+			Disable();
+			isEnabled = false;
+			Toggle();
+			
+		}
+		else{
+			
+			Enable();
+			isEnabled = true;
+			Toggle();
+			
+		}
+		
+	}
+	
+	
+	public void Enable() {};
+	public void Disable() {};
+	public void Tick() {};
+	public void Toggle() {};
+	public void Event(Event e) {};
+	
+	public int getKey() {
+		return Keybind;
+	}
+
+	public void setKey(int key) {
+		this.Keybind = key;
+	}
+
+
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+package escapemc.Command.commands;
+
+import escapemc.Command.Command;
+import escapemc.Command.CommandManager;
+
+public class CommandHelp extends Command {
+
+	public CommandHelp() {
+		
+		super("help", "-help", "Lists all CtrlMC Commands.");
+		
+	}
+
+	@Override
+	public void Command(String[] command) {
+		
+		for(Command c : CommandManager.Commands) {
+			
+			Chat(c.Command + ": "+c.Description);
+			
+		}
+	
+}

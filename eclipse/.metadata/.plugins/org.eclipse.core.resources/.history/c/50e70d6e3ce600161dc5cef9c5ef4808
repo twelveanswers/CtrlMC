@@ -1,0 +1,5 @@
+package escapemc.module;
+
+public class ModuleManager {
+
+}

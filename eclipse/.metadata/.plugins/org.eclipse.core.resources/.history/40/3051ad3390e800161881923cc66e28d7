@@ -1,0 +1,31 @@
+package escapemc.Command.commands;
+
+import escapemc.Command.Command;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+
+public class CommandFullbright extends Command {
+
+	public CommandFullbright(String cmd, String syntax, String desc) {
+		
+		super("fullbright", "-fullbright", "Toggles Fullbright");
+	
+	}
+
+	@Override
+	public void Command(String[] args) {
+		
+		for(Module m: ModuleManager.Modules) {
+			
+			if(args[0].equalsIgnoreCase(m.Name = "Fullbright")) {
+				
+				m.toggle();
+				
+			}
+			
+		}
+
+		
+	}
+	
+}

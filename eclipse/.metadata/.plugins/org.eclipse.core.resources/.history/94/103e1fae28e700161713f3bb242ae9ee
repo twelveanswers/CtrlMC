@@ -1,0 +1,17 @@
+package escapemc.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class KillAura extends Module {
+
+	public KillAura(String n, String d, int k, Category c) {
+		super("Killaura", "Killaura", Keyboard.KEY_K, Category.COMBAT);
+
+		
+	
+	}
+
+}
