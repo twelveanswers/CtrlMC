@@ -34,7 +34,7 @@ public class CommandHelp extends Command {
 	@Override
 	public void onCommand(String command, String[] args) throws Exception {
 		
-		for(Command c : CommandManager.RegisterCommands()) {
+		for(Command c : CommandManager.getCommands()) {
 			
 			ChatUtil.SendChatMessage(c.getName() + ":"+ c.getDescription());
 			

@@ -1,0 +1,5 @@
+package escapemc.Event.events;
+
+public class EventPosMotion {
+
+}

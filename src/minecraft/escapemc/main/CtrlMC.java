@@ -17,7 +17,7 @@ public class CtrlMC {
 		System.out.println("Loading CTRLMC Client...");
 		Display.setTitle("CTRLMC Client 1.0");
 		ModuleManager.registerModules();
-		CommandManager.RegisterCommands();
+		CommandManager.getCommands();
 		
 	}
 	

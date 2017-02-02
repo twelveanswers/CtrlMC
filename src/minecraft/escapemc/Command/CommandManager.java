@@ -16,19 +16,19 @@ public class CommandManager {
 		AddCommand(new CommandHelp());
 	}
 	
-	public void AddCommand(Command c){
+	public static void AddCommand(Command c){
 		commands.add(c);
 	}
 	
-	public static ArrayList<Command> RegisterCommands(){
+	public static ArrayList<Command> getCommands(){
 		return commands;
 	}
 	
 	public static void callCommand(String s){
 		String[] split = s.split(" ");
 		String command = split[0];
-		String args = s.substring(command.length()).trim();
-			for(Command c: RegisterCommands()){
+		String args = s.substring(1, s.length());
+			for(Command c: getCommands()){
 				if(c.getName().equalsIgnoreCase(command)){
 					try{
 						c.onCommand(args, args.split(" "));

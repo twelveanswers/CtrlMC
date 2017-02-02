@@ -15,6 +15,7 @@ public class Fly extends Module{
 	public void onEnable() {
 			
 		mc.thePlayer.capabilities.isFlying = true;
+		this.setToggled(true);
 
 	}	
 		
@@ -22,6 +23,7 @@ public class Fly extends Module{
 	public void onDisable() {
 			
 		mc.thePlayer.capabilities.isFlying = false;
+		this.setToggled(false);
 			
 	}
 		

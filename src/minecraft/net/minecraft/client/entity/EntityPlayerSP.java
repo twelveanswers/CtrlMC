@@ -1,9 +1,13 @@
 package net.minecraft.client.entity;
 
 import java.util.List;
+
 import javax.annotation.Nullable;
 
 import escapemc.Command.CommandManager;
+import escapemc.Event.EventHandler;
+import escapemc.Event.events.EventPostMotion;
+import escapemc.Event.events.EventPreMotion;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.ElytraSound;
@@ -216,14 +220,29 @@ public class EntityPlayerSP extends AbstractClientPlayer
      */
     public void onUpdate()
     {
+    	
+    	EventPreMotion pre = new EventPreMotion(rotationYaw, rotationPitch, posX, posY, posZ, onGround);
+    	EventPostMotion post = new EventPostMotion();
+    	
+    	
+    	
+    	
         if (this.worldObj.isBlockLoaded(new BlockPos(this.posX, 0.0D, this.posZ)))
         {
             super.onUpdate();
 
             if (this.isRiding())
             {
+            	
+            	EventHandler.onEvent(pre);
+            	if(pre.cancel)return;
+            	
+            	
+            	
                 this.connection.sendPacket(new CPacketPlayer.Rotation(this.rotationYaw, this.rotationPitch, this.onGround));
                 this.connection.sendPacket(new CPacketInput(this.moveStrafing, this.moveForward, this.movementInput.jump, this.movementInput.sneak));
+                
+                	EventHandler.onEvent(post);                
                 Entity entity = this.getLowestRidingEntity();
 
                 if (entity != this && entity.canPassengerSteer())
@@ -243,6 +262,12 @@ public class EntityPlayerSP extends AbstractClientPlayer
      */
     public void onUpdateWalkingPlayer()
     {
+    	
+       	EventPreMotion pre = new EventPreMotion(rotationYaw, rotationPitch, posX, posY, posZ, onGround);
+    	EventPostMotion post = new EventPostMotion();
+    	EventHandler.onEvent(pre);
+    	if(pre.cancel)return;
+    	
         boolean flag = this.isSprinting();
 
         if (flag != this.serverSprintState)
@@ -281,11 +306,19 @@ public class EntityPlayerSP extends AbstractClientPlayer
             double d0 = this.posX - this.lastReportedPosX;
             double d1 = axisalignedbb.minY - this.lastReportedPosY;
             double d2 = this.posZ - this.lastReportedPosZ;
-            double d3 = (double)(this.rotationYaw - this.lastReportedYaw);
-            double d4 = (double)(this.rotationPitch - this.lastReportedPitch);
+            double d3 = (double)(pre.rotationYaw - this.lastReportedYaw);
+            double d4 = (double)(pre.rotationPitch - this.lastReportedPitch);
             ++this.positionUpdateTicks;
             boolean flag2 = d0 * d0 + d1 * d1 + d2 * d2 > 9.0E-4D || this.positionUpdateTicks >= 20;
             boolean flag3 = d3 != 0.0D || d4 != 0.0D;
+            
+            double packetX = pre.posX;
+            double packetY = pre.posY;
+            double packetZ = pre.posZ;
+            float packetYaw = pre.rotationYaw;
+            float packetPitch = pre.rotationPitch;
+            boolean packetOnGround = pre.onGround;
+            boolean cancel = false;
 
             if (this.isRiding())
             {
@@ -294,19 +327,19 @@ public class EntityPlayerSP extends AbstractClientPlayer
             }
             else if (flag2 && flag3)
             {
-                this.connection.sendPacket(new CPacketPlayer.PositionRotation(this.posX, axisalignedbb.minY, this.posZ, this.rotationYaw, this.rotationPitch, this.onGround));
+                this.connection.sendPacket(new CPacketPlayer.PositionRotation(packetX, packetY, packetZ, packetYaw, packetPitch, packetOnGround));
             }
             else if (flag2)
             {
-                this.connection.sendPacket(new CPacketPlayer.Position(this.posX, axisalignedbb.minY, this.posZ, this.onGround));
+                this.connection.sendPacket(new CPacketPlayer.Position(packetX, packetY, packetZ, packetOnGround));
             }
             else if (flag3)
             {
-                this.connection.sendPacket(new CPacketPlayer.Rotation(this.rotationYaw, this.rotationPitch, this.onGround));
+                this.connection.sendPacket(new CPacketPlayer.Rotation(packetYaw, packetPitch, packetOnGround));
             }
             else if (this.prevOnGround != this.onGround)
             {
-                this.connection.sendPacket(new CPacketPlayer(this.onGround));
+                this.connection.sendPacket(new CPacketPlayer(packetOnGround));
             }
 
             if (flag2)
@@ -326,6 +359,7 @@ public class EntityPlayerSP extends AbstractClientPlayer
             this.prevOnGround = this.onGround;
             this.field_189811_cr = this.mc.gameSettings.field_189989_R;
         }
+        EventHandler.onEvent(post);
     }
 
     @Nullable
@@ -351,18 +385,16 @@ public class EntityPlayerSP extends AbstractClientPlayer
      * Sends a chat message from the player.
      */
     public void sendChatMessage(String message)
-    {
+    {   	
     	
     	if(message.startsWith("-")) {
     		
     		CommandManager.callCommand(message);
     		
-    	}
-    	else {
+    	}else{
     		
-    	
         this.connection.sendPacket(new CPacketChatMessage(message));
-        
+    	
     	}
     }
 

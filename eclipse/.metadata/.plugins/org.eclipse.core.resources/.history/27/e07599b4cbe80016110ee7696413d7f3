@@ -1,0 +1,21 @@
+package escapemc.Event.events;
+
+import escapemc.Event.Event;
+
+public class EventPreMotion extends Event {
+	
+	public boolean cancel;
+	public boolean onGround;
+	public float rotationYaw;
+	public float rotationPitch;
+	private double posX;
+	private double posY;
+	private double posZ;
+	
+	public EventPreMotion(float rotationYaw, float rotationPitch, double posX, double posY, double posZ, boolean onGround) {
+		
+		
+		
+	}
+
+}

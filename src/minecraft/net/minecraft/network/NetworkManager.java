@@ -18,6 +18,8 @@ import org.apache.logging.log4j.MarkerManager;
 import com.google.common.collect.Queues;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
+import escapemc.Event.EventHandler;
+import escapemc.Event.events.EventSendPacket;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelException;
@@ -176,6 +178,16 @@ public class NetworkManager extends SimpleChannelInboundHandler < Packet<? >>
 
     public void sendPacket(Packet<?> packetIn)
     {
+    	
+    	EventSendPacket e = new EventSendPacket(packetIn);
+    	EventHandler.onEvent(e);
+    	if(e.cancel == true) {
+    		
+    		return;
+    		
+    	}
+    	
+    	packetIn = e.packet;
     	
  
         if (this.isChannelOpen())

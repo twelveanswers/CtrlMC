@@ -18,6 +18,7 @@ public class Sprint extends Module {
 	public void onEnable() {
 
 		mc.thePlayer.setSprinting(true);
+		this.setToggled(true);
 
 	}
 		
@@ -25,6 +26,7 @@ public class Sprint extends Module {
 	public void onDisable() {
 		
 		mc.thePlayer.setSprinting(false);
+		this.setToggled(false);
 		
 	}	
 	

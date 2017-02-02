@@ -83,7 +83,6 @@ import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.gui.achievement.GuiAchievement;
 import net.minecraft.client.gui.inventory.GuiInventory;
 import net.minecraft.client.main.GameConfiguration;
-import net.minecraft.client.main.Main;
 import net.minecraft.client.multiplayer.GuiConnecting;
 import net.minecraft.client.multiplayer.PlayerControllerMP;
 import net.minecraft.client.multiplayer.ServerData;
@@ -1768,6 +1767,17 @@ public class Minecraft implements IThreadListener, ISnooperInfo
      */
     public void runTick() throws IOException
     {    	
+    	
+    	for(Module m : ModuleManager.getModules()) {
+    		
+    		if(m.isToggled() && theWorld != null) {
+    			
+    			m.Tick();
+    			
+    		}
+    		
+    	}
+    	
     	
         if (this.rightClickDelayTimer > 0)
         {

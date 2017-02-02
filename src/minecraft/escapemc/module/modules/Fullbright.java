@@ -15,6 +15,7 @@ public class Fullbright extends Module{
 	public void onEnable() {
 		
 		mc.gameSettings.gammaSetting = 10F;
+		this.setToggled(true);
 		
 	}
 	
@@ -22,6 +23,7 @@ public class Fullbright extends Module{
 	public void onDisable() {
 	
 		mc.gameSettings.gammaSetting = 0F;
+		this.setToggled(false);
 		
 	}
 }

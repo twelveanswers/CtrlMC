@@ -1,0 +1,9 @@
+package escapemc.Event.events;
+
+import escapemc.Event.Event;
+
+public class EventPreMotion extends Event {
+	
+	
+
+}

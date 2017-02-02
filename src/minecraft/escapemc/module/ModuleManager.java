@@ -2,12 +2,10 @@ package escapemc.module;
 
 import java.util.ArrayList;
 
-import escapemc.Command.CommandManager;
 import escapemc.module.modules.Fly;
 import escapemc.module.modules.Fullbright;
-import net.minecraft.client.Minecraft;
-import net.minecraft.network.play.server.SPacketChat;
-import net.minecraft.util.text.ITextComponent;
+import escapemc.module.modules.Speed;
+import escapemc.module.modules.Sprint;
 
 public class ModuleManager {
 
@@ -32,6 +30,8 @@ public class ModuleManager {
 
 		addModule(new Fly());
 		addModule(new Fullbright());
+		addModule(new Sprint());
+		addModule(new Speed());
 		
 		
 	}
@@ -55,29 +55,6 @@ public class ModuleManager {
 				m.toggle();
 			}
 		}
-	}
-	
-	public static boolean onSendChatMessage(String s){//EntityPlayerSP
-		if(s.startsWith(".")){
-			CommandManager.callCommand(s.substring(1));
-			return false;
-		}
-		for(Module m: getModules()){
-			if(m.isToggled()){
-				return m.onSendChatMessage(s);
-			}
-		}
-		return true;
-	}
-	
-	public static boolean onRecieveChatMessage(SPacketChat packet){
-		for(Module m: getModules()){
-			if(m.isToggled()){
-				return m.onRecieveChatMessage(packet);
-			}
-		}
-		return true;
-	}
-	
+	}	
 }
 

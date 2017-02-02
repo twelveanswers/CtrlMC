@@ -1,5 +1,6 @@
 package escapemc.module;
 
+import escapemc.Event.Event;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.play.server.SPacketChat;
 
@@ -38,6 +39,8 @@ public class Module {
 		public void onDisable(){}
 		public void onUpdate(){}
 		public void onRender(){}
+		public void Tick(){}
+		public void Event(Event e){}
 
 		public String getName() {
 			return name;
