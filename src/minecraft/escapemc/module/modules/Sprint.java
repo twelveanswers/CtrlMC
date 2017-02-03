@@ -10,12 +10,12 @@ public class Sprint extends Module {
 
 	public Sprint() {
 	
-		super("NoFall", Keyboard.KEY_N, Category.MOVEMENT);
+		super("Sprint", Keyboard.KEY_N, Category.MOVEMENT);
 
 	}
 
 	@Override
-	public void onEnable() {
+	public void Tick() {
 
 		mc.thePlayer.setSprinting(true);
 		this.setToggled(true);

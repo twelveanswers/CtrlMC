@@ -8,13 +8,13 @@ import escapemc.module.Module;
 public class Fullbright extends Module{
 
 	public Fullbright() {
-		super("Fullbright", Keyboard.KEY_APOSTROPHE, Category.RENDER);
+		super("Fullbright", Keyboard.KEY_L, Category.RENDER);
 	}
 	
 	@Override
-	public void onEnable() {
+	public void Tick() {
 		
-		mc.gameSettings.gammaSetting = 10F;
+		mc.gameSettings.gammaSetting = 100F;
 		this.setToggled(true);
 		
 	}

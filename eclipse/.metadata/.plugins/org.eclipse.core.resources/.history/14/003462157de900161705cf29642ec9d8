@@ -1,0 +1,15 @@
+package escapemc.module.modules;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class MobESP extends Module {
+
+	public MobESP() {
+		super("MobESP", k, c);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+}

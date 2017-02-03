@@ -1,0 +1,17 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class MobESP extends Module {
+
+	public MobESP() {
+		super("MobESP", Keyboard.KEY_P, Category.RENDER);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	
+}

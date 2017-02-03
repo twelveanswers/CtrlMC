@@ -1,0 +1,15 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class XRay extends Module {
+
+	public XRay() {
+		super("XRay", Keyboard.KEY_X, Category.WORLD);
+		// TODO Auto-generated constructor stub
+	}
+
+}

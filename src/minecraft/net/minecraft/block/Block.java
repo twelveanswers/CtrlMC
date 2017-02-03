@@ -1,10 +1,13 @@
 package net.minecraft.block;
 
-import com.google.common.collect.Sets;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
+
 import javax.annotation.Nullable;
+
+import com.google.common.collect.Sets;
+
 import net.minecraft.block.material.EnumPushReaction;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -454,7 +457,7 @@ public class Block
 
     @Deprecated
     public int getPackedLightmapCoords(IBlockState state, IBlockAccess source, BlockPos pos)
-    {
+    {    		
         int i = source.getCombinedLight(pos, state.getLightValue());
 
         if (i == 0 && state.getBlock() instanceof BlockSlab)
@@ -471,7 +474,7 @@ public class Block
 
     @Deprecated
     public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side)
-    {
+    {    	
         AxisAlignedBB axisalignedbb = blockState.getBoundingBox(blockAccess, pos);
 
         switch (side)

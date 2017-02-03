@@ -1,563 +1,522 @@
-[07:24:49] [Client thread/ERROR]: Can't find the resource index file: assets\indexes\1.8.json
-[07:24:49] [Client thread/INFO]: Setting user: Player493
-[07:24:58] [Client thread/WARN]: Skipping bad option: lastServer:
-[07:24:58] [Client thread/INFO]: LWJGL Version: 2.9.4
-[07:24:58] [Client thread/INFO]: Reloading ResourceManager: Default
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:ambient.cave
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.destroy
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.land
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.use
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.brewing_stand.brew
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.chest.close
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.chest.locked
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.chest.open
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.chorus_flower.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.chorus_flower.grow
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.comparator.click
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.dispenser.dispense
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.dispenser.fail
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.dispenser.launch
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.enchantment_table.use
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.end_gateway.spawn
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.enderchest.close
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.enderchest.open
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.fence_gate.close
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.fence_gate.open
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.fire.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.fire.extinguish
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.furnace.fire_crackle
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.iron_door.close
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.iron_door.open
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.iron_trapdoor.close
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.iron_trapdoor.open
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.lava.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.lava.extinguish
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.lava.pop
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.lever.click
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.metal_pressureplate.click_off
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.metal_pressureplate.click_on
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.note.basedrum
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.note.bass
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.note.harp
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.note.hat
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.note.pling
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.note.snare
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.piston.contract
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.piston.extend
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.portal.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.portal.travel
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.portal.trigger
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.redstone_torch.burnout
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.stone_button.click_off
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.stone_button.click_on
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.stone_pressureplate.click_off
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.stone_pressureplate.click_on
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.tripwire.attach
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.tripwire.click_off
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.tripwire.click_on
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.tripwire.detach
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.water.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.waterlily.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wood_button.click_off
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wood_button.click_on
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wood_pressureplate.click_off
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wood_pressureplate.click_on
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wooden_door.close
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wooden_door.open
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wooden_trapdoor.close
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:block.wooden_trapdoor.open
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:enchant.thorns.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.armorstand.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.armorstand.fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.armorstand.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.armorstand.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.arrow.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.arrow.hit_player
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.arrow.shoot
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.loop
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.takeoff
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.burn
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.shoot
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.bobber.splash
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.bobber.throw
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.hiss
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.purr
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.purreow
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.egg
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.milk
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.creeper.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.creeper.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.creeper.primed
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.angry
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.chest
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.egg.throw
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.ambient_land
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.curse
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.death_land
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.hurt_land
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.flap
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.growl
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.shoot
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon_fireball.explode
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endereye.launch
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.scream
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.stare
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.teleport
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermite.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermite.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermite.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermite.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderpearl.throw
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.experience_bottle.throw
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.experience_orb.pickup
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.experience_orb.touch
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.blast
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.blast_far
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.large_blast
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.large_blast_far
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.launch
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.shoot
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.twinkle
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.twinkle_far
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.big_fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.burn
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.drink
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.eat
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.explode
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.extinguish_fire
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.small_fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.splash
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.swim
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.scream
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.shoot
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.warn
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.ambient_land
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.attack
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.death_land
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.flop
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.hurt_land
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.angry
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.armor
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.breathe
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.eat
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.gallop
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.jump
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.land
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.saddle
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.step_wood
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.big_fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.small_fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.splash
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.swim
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.husk.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.husk.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.husk.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.husk.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.irongolem.attack
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.irongolem.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.irongolem.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.irongolem.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.item.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.item.pickup
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.add_item
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.remove_item
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.rotate_item
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.leashknot.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.leashknot.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.lightning.impact
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.lightning.thunder
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.lingeringpotion.throw
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.magmacube.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.magmacube.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.magmacube.jump
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.magmacube.squish
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.minecart.inside
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.minecart.riding
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.mooshroom.shear
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.mule.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.mule.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.mule.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.painting.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.painting.place
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.saddle
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.crit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.knockback
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.nodamage
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.strong
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.sweep
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.weak
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.big_fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.breath
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.burp
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.levelup
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.small_fall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.splash
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.swim
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.baby_ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.warning
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.attack
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.jump
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.shear
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.close
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.hurt_closed
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.open
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.shoot
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.teleport
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker_bullet.hit
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker_bullet.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.silverfish.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.silverfish.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.silverfish.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.silverfish.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.shoot
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.attack
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.jump
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.squish
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_magmacube.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_magmacube.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_magmacube.squish
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_slime.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_slime.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_slime.jump
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_slime.squish
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowball.throw
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowman.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowman.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowman.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowman.shoot
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.spider.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.spider.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.spider.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.spider.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.splash_potion.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.splash_potion.throw
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.squid.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.squid.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.squid.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.stray.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.stray.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.stray.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.stray.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.tnt.primed
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.no
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.trading
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.yes
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.drink
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.throw
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.break_block
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.shoot
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.spawn
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.growl
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.howl
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.pant
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.shake
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.whine
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.attack_door_wood
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.attack_iron_door
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.break_door_wood
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.infect
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_horse.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_horse.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_horse.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_pig.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_pig.angry
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_pig.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_pig.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.ambient
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.converted
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.cure
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.death
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.hurt
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.step
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_chain
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_diamond
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_generic
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_gold
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_iron
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_leather
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.bottle.fill
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.bottle.fill_dragonbreath
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.bucket.empty
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.bucket.empty_lava
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.bucket.fill
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.bucket.fill_lava
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.chorus_fruit.teleport
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.elytra.flying
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.firecharge.use
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.flintandsteel.use
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.hoe.till
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.shield.block
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.shield.break
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:item.shovel.flatten
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:music.creative
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:music.credits
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:music.dragon
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:music.end
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:music.game
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:music.menu
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:music.nether
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.11
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.13
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.blocks
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.cat
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.chirp
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.far
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.mall
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.mellohi
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.stal
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.strad
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.wait
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:record.ward
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:ui.button.click
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:weather.rain
-[07:24:58] [Client thread/WARN]: Missing sound for event: minecraft:weather.rain.above
-[07:24:58] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[07:24:58] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[07:24:58] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[07:24:59] [Thread-5/INFO]: OpenAL initialized.
-[07:24:59] [Sound Library Loader/INFO]: Sound engine started
-[07:25:02] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[07:25:08] [Server thread/INFO]: Starting integrated minecraft server version 1.10
-[07:25:08] [Server thread/INFO]: Generating keypair
-[07:25:08] [Server thread/INFO]: Preparing start region for level 0
-[07:25:09] [Server thread/WARN]: Keeping entity Wolf that already exists with UUID b6de7c1e-fc04-4884-b052-4728d031904a
-[07:25:09] [Server thread/WARN]: Keeping entity Wolf that already exists with UUID a4895d52-c5e2-4a7f-8591-3489781f96be
-[07:25:09] [Server thread/WARN]: Keeping entity Wolf that already exists with UUID b6de7c1e-fc04-4884-b052-4728d031904a
-[07:25:09] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 606ccc8c-62bb-4a29-8b88-9a2a8e621774
-[07:25:09] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 606ccc8c-62bb-4a29-8b88-9a2a8e621774
-[07:25:09] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 86b0e559-7051-4ac6-a43f-d07471fc2bcb
-[07:25:09] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 9df1d790-dd5f-4d70-865d-8d3605cc64b1
-[07:25:09] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 5f25c744-16c4-4cc4-aad0-134171ec2976
-[07:25:09] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID da61e074-09b4-4640-8cf7-422d1f2717ac
-[07:25:09] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 480d92dd-a876-40cc-a045-bab5258d0665
-[07:25:09] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 44702949-fd99-4a78-a527-2d78d6946279
-[07:25:09] [Server thread/INFO]: Preparing spawn area: 54%
-[07:25:09] [Server thread/WARN]: Keeping entity Villager that already exists with UUID b5134dc2-626e-46f8-9ba2-86e376c9a0a8
-[07:25:09] [Server thread/WARN]: Keeping entity Villager that already exists with UUID dfca9c83-de87-45e9-8693-8e797e1d4be6
-[07:25:09] [Server thread/WARN]: Keeping entity Bat that already exists with UUID 2934d3ec-9940-443d-b6bd-406b2dbc0817
-[07:25:10] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 0b4a0f5a-c793-4592-b5d4-315dcc282421
-[07:25:10] [Server thread/WARN]: Keeping entity Bat that already exists with UUID 5d213918-320a-4566-9138-f4f3da706d82
-[07:25:10] [Server thread/WARN]: Keeping entity Bat that already exists with UUID 4a5aa39e-2d14-4a9e-9560-22c4b4cd95c3
-[07:25:10] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID d001e1f8-51d4-40af-a965-5f99ace6f128
-[07:25:10] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID ebb43b3c-d8ee-4b8f-8215-feb739abc7c0
-[07:25:10] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 372b7af1-f650-45cc-a547-848e1f5e3514
-[07:25:10] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 361fb476-aecf-46e0-93bc-10e8a5a97746
-[07:25:10] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 133e674e-351d-4218-951d-cf1339fc9e8c
-[07:25:10] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID df2e37aa-fe86-4519-bcd0-4f32796ef5a5
-[07:25:10] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 3966f5ba-9e3d-450c-b1a2-89338c4c3ac3
-[07:25:10] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 9d828434-d65c-4a2d-a35a-f3b8bc523b5b
-[07:25:10] [Server thread/INFO]: Changing view distance to 12, from 10
-[07:25:10] [Server thread/INFO]: Player493[local:E:3d2ef0a0] logged in with entity id 386 at (-92.68129056269359, 71.0, 83.69757462403417)
-[07:25:10] [Server thread/INFO]: Player493 joined the game
-[07:25:11] [Server thread/WARN]: Keeping entity Pig that already exists with UUID dbfc89af-c92f-4b56-bb82-e27c283832a6
-[07:25:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2113ms behind, skipping 42 tick(s)
-[07:25:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5217ms behind, skipping 104 tick(s)
-[07:26:19] [Server thread/INFO]: Saving and pausing game...
-[07:26:19] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[07:26:20] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[07:26:20] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[07:26:20] [Server thread/INFO]: Stopping server
-[07:26:20] [Server thread/INFO]: Saving players
-[07:26:20] [Server thread/INFO]: Saving worlds
-[07:26:20] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[07:26:21] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[07:26:21] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[07:26:23] [Server thread/INFO]: Starting integrated minecraft server version 1.10
-[07:26:23] [Server thread/INFO]: Generating keypair
-[07:26:23] [Server thread/INFO]: Preparing start region for level 0
-[07:26:23] [Server thread/WARN]: Keeping entity Wolf that already exists with UUID b6de7c1e-fc04-4884-b052-4728d031904a
-[07:26:23] [Server thread/WARN]: Keeping entity Wolf that already exists with UUID a4895d52-c5e2-4a7f-8591-3489781f96be
-[07:26:23] [Server thread/WARN]: Keeping entity Wolf that already exists with UUID b6de7c1e-fc04-4884-b052-4728d031904a
-[07:26:23] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 606ccc8c-62bb-4a29-8b88-9a2a8e621774
-[07:26:23] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 606ccc8c-62bb-4a29-8b88-9a2a8e621774
-[07:26:23] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 86b0e559-7051-4ac6-a43f-d07471fc2bcb
-[07:26:23] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 9df1d790-dd5f-4d70-865d-8d3605cc64b1
-[07:26:23] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 5f25c744-16c4-4cc4-aad0-134171ec2976
-[07:26:23] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID da61e074-09b4-4640-8cf7-422d1f2717ac
-[07:26:24] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 480d92dd-a876-40cc-a045-bab5258d0665
-[07:26:24] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 44702949-fd99-4a78-a527-2d78d6946279
-[07:26:24] [Server thread/WARN]: Keeping entity Villager that already exists with UUID b5134dc2-626e-46f8-9ba2-86e376c9a0a8
-[07:26:24] [Server thread/WARN]: Keeping entity Villager that already exists with UUID dfca9c83-de87-45e9-8693-8e797e1d4be6
-[07:26:24] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 0b4a0f5a-c793-4592-b5d4-315dcc282421
-[07:26:24] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID d001e1f8-51d4-40af-a965-5f99ace6f128
-[07:26:24] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID ebb43b3c-d8ee-4b8f-8215-feb739abc7c0
-[07:26:24] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 372b7af1-f650-45cc-a547-848e1f5e3514
-[07:26:24] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 361fb476-aecf-46e0-93bc-10e8a5a97746
-[07:26:24] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 133e674e-351d-4218-951d-cf1339fc9e8c
-[07:26:24] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID df2e37aa-fe86-4519-bcd0-4f32796ef5a5
-[07:26:24] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 3966f5ba-9e3d-450c-b1a2-89338c4c3ac3
-[07:26:24] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 9d828434-d65c-4a2d-a35a-f3b8bc523b5b
-[07:26:24] [Server thread/INFO]: Preparing spawn area: 89%
-[07:26:24] [Server thread/INFO]: Changing view distance to 12, from 10
-[07:26:24] [Server thread/INFO]: Player493[local:E:d3fbabe3] logged in with entity id 2669 at (-157.35692751004956, 67.0, 104.2132238471641)
-[07:26:24] [Server thread/INFO]: Player493 joined the game
-[07:26:25] [Server thread/WARN]: Keeping entity Pig that already exists with UUID dbfc89af-c92f-4b56-bb82-e27c283832a6
-[07:26:27] [Client thread/INFO]: [CHAT] §3CtrlMc: §aNot Found! Use -help for a list of all commands.
-[07:26:30] [Server thread/INFO]: Saving and pausing game...
-[07:26:30] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[07:26:31] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[07:26:31] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[07:26:31] [Server thread/INFO]: Stopping server
-[07:26:31] [Server thread/INFO]: Saving players
-[07:26:31] [Server thread/INFO]: Saving worlds
-[07:26:31] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[07:26:31] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[07:26:31] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[07:26:32] [Client thread/INFO]: Stopping!
-[07:26:32] [Client thread/INFO]: SoundSystem shutting down...
-[07:26:32] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[09:34:18] [Client thread/ERROR]: Can't find the resource index file: assets\indexes\1.8.json
+[09:34:18] [Client thread/INFO]: Setting user: Player510
+[09:34:20] [Client thread/WARN]: Skipping bad option: lastServer:
+[09:34:20] [Client thread/INFO]: LWJGL Version: 2.9.4
+[09:34:20] [Client thread/INFO]: Reloading ResourceManager: Default
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:ambient.cave
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.destroy
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.land
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.anvil.use
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.brewing_stand.brew
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.chest.close
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.chest.locked
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.chest.open
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.chorus_flower.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.chorus_flower.grow
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.cloth.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.comparator.click
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.dispenser.dispense
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.dispenser.fail
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.dispenser.launch
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.enchantment_table.use
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.end_gateway.spawn
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.enderchest.close
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.enderchest.open
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.fence_gate.close
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.fence_gate.open
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.fire.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.fire.extinguish
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.furnace.fire_crackle
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.glass.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.grass.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.gravel.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.iron_door.close
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.iron_door.open
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.iron_trapdoor.close
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.iron_trapdoor.open
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.ladder.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.lava.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.lava.extinguish
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.lava.pop
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.lever.click
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.metal.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.metal_pressureplate.click_off
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.metal_pressureplate.click_on
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.note.basedrum
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.note.bass
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.note.harp
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.note.hat
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.note.pling
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.note.snare
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.piston.contract
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.piston.extend
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.portal.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.portal.travel
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.portal.trigger
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.redstone_torch.burnout
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.sand.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.slime.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.snow.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.stone.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.stone_button.click_off
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.stone_button.click_on
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.stone_pressureplate.click_off
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.stone_pressureplate.click_on
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.tripwire.attach
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.tripwire.click_off
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.tripwire.click_on
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.tripwire.detach
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.water.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.waterlily.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wood.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wood_button.click_off
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wood_button.click_on
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wood_pressureplate.click_off
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wood_pressureplate.click_on
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wooden_door.close
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wooden_door.open
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wooden_trapdoor.close
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:block.wooden_trapdoor.open
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:enchant.thorns.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.armorstand.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.armorstand.fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.armorstand.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.armorstand.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.arrow.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.arrow.hit_player
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.arrow.shoot
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.loop
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.bat.takeoff
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.burn
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.blaze.shoot
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.bobber.splash
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.bobber.throw
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.hiss
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.purr
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cat.purreow
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.egg
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.chicken.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.milk
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.cow.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.creeper.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.creeper.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.creeper.primed
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.angry
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.chest
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.donkey.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.egg.throw
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.ambient_land
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.curse
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.death_land
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.elder_guardian.hurt_land
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.flap
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.growl
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon.shoot
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderdragon_fireball.explode
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endereye.launch
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.scream
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.stare
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermen.teleport
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermite.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermite.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermite.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.endermite.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.enderpearl.throw
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.experience_bottle.throw
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.experience_orb.pickup
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.experience_orb.touch
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.blast
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.blast_far
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.large_blast
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.large_blast_far
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.launch
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.shoot
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.twinkle
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.firework.twinkle_far
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.big_fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.burn
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.drink
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.eat
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.explode
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.extinguish_fire
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.small_fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.splash
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.generic.swim
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.scream
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.shoot
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.ghast.warn
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.ambient_land
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.attack
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.death_land
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.flop
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.guardian.hurt_land
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.angry
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.armor
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.breathe
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.eat
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.gallop
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.jump
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.land
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.saddle
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.horse.step_wood
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.big_fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.small_fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.splash
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.hostile.swim
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.husk.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.husk.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.husk.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.husk.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.irongolem.attack
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.irongolem.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.irongolem.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.irongolem.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.item.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.item.pickup
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.add_item
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.remove_item
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.itemframe.rotate_item
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.leashknot.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.leashknot.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.lightning.impact
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.lightning.thunder
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.lingeringpotion.throw
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.magmacube.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.magmacube.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.magmacube.jump
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.magmacube.squish
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.minecart.inside
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.minecart.riding
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.mooshroom.shear
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.mule.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.mule.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.mule.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.painting.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.painting.place
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.saddle
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.pig.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.crit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.knockback
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.nodamage
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.strong
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.sweep
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.attack.weak
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.big_fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.breath
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.burp
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.levelup
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.small_fall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.splash
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.player.swim
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.baby_ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.polar_bear.warning
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.attack
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.rabbit.jump
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.shear
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.sheep.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.close
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.hurt_closed
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.open
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.shoot
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker.teleport
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker_bullet.hit
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.shulker_bullet.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.silverfish.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.silverfish.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.silverfish.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.silverfish.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.shoot
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.skeleton_horse.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.attack
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.jump
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.slime.squish
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_magmacube.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_magmacube.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_magmacube.squish
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_slime.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_slime.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_slime.jump
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.small_slime.squish
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowball.throw
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowman.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowman.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowman.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.snowman.shoot
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.spider.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.spider.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.spider.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.spider.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.splash_potion.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.splash_potion.throw
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.squid.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.squid.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.squid.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.stray.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.stray.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.stray.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.stray.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.tnt.primed
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.no
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.trading
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.villager.yes
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.drink
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.witch.throw
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.break_block
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.shoot
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither.spawn
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wither_skeleton.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.growl
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.howl
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.pant
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.shake
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.wolf.whine
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.attack_door_wood
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.attack_iron_door
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.break_door_wood
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.infect
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_horse.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_horse.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_horse.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_pig.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_pig.angry
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_pig.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_pig.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.ambient
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.converted
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.cure
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.death
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.hurt
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:entity.zombie_villager.step
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_chain
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_diamond
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_generic
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_gold
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_iron
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.armor.equip_leather
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.bottle.fill
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.bottle.fill_dragonbreath
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.bucket.empty
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.bucket.empty_lava
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.bucket.fill
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.bucket.fill_lava
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.chorus_fruit.teleport
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.elytra.flying
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.firecharge.use
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.flintandsteel.use
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.hoe.till
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.shield.block
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.shield.break
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:item.shovel.flatten
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:music.creative
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:music.credits
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:music.dragon
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:music.end
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:music.game
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:music.menu
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:music.nether
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.11
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.13
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.blocks
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.cat
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.chirp
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.far
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.mall
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.mellohi
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.stal
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.strad
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.wait
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:record.ward
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:ui.button.click
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:weather.rain
+[09:34:20] [Client thread/WARN]: Missing sound for event: minecraft:weather.rain.above
+[09:34:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[09:34:20] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[09:34:20] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[09:34:20] [Thread-5/INFO]: OpenAL initialized.
+[09:34:21] [Sound Library Loader/INFO]: Sound engine started
+[09:34:22] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[09:34:24] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[09:34:27] [Server thread/INFO]: Starting integrated minecraft server version 1.10
+[09:34:27] [Server thread/INFO]: Generating keypair
+[09:34:27] [Server thread/INFO]: Preparing start region for level 0
+[09:34:28] [Server thread/WARN]: Keeping entity Wolf that already exists with UUID a4895d52-c5e2-4a7f-8591-3489781f96be
+[09:34:28] [Server thread/WARN]: Keeping entity Wolf that already exists with UUID b6de7c1e-fc04-4884-b052-4728d031904a
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 606ccc8c-62bb-4a29-8b88-9a2a8e621774
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 606ccc8c-62bb-4a29-8b88-9a2a8e621774
+[09:34:28] [Server thread/WARN]: Keeping entity Wolf that already exists with UUID b6de7c1e-fc04-4884-b052-4728d031904a
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 9df1d790-dd5f-4d70-865d-8d3605cc64b1
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 480d92dd-a876-40cc-a045-bab5258d0665
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 44702949-fd99-4a78-a527-2d78d6946279
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID da61e074-09b4-4640-8cf7-422d1f2717ac
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 0dea9d8e-fec9-4f41-85f0-43f797200099
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 092ec19c-ca6e-4f0c-a3e4-bec4612fc977
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID 0b4a0f5a-c793-4592-b5d4-315dcc282421
+[09:34:28] [Server thread/INFO]: Preparing spawn area: 66%
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID d001e1f8-51d4-40af-a965-5f99ace6f128
+[09:34:28] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID ebb43b3c-d8ee-4b8f-8215-feb739abc7c0
+[09:34:28] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 372b7af1-f650-45cc-a547-848e1f5e3514
+[09:34:28] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 361fb476-aecf-46e0-93bc-10e8a5a97746
+[09:34:28] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 133e674e-351d-4218-951d-cf1339fc9e8c
+[09:34:28] [Server thread/WARN]: Keeping entity Chicken that already exists with UUID df2e37aa-fe86-4519-bcd0-4f32796ef5a5
+[09:34:28] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID c7ba23bf-5e5c-4aaa-9356-34cab50721a4
+[09:34:28] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 3966f5ba-9e3d-450c-b1a2-89338c4c3ac3
+[09:34:28] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 7878cf3d-37f5-4648-b539-fff91c79140b
+[09:34:28] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 9d828434-d65c-4a2d-a35a-f3b8bc523b5b
+[09:34:29] [Server thread/INFO]: Changing view distance to 12, from 10
+[09:34:29] [Server thread/INFO]: Player510[local:E:f21d4595] logged in with entity id 296 at (5.091242664410583, 69.0, 77.06950068072294)
+[09:34:29] [Server thread/INFO]: Player510 joined the game
+[09:34:29] [Server thread/WARN]: Keeping entity Pig that already exists with UUID 484f56e4-d37e-4efd-b95e-dc63e1dd0caa
+[09:34:29] [Server thread/WARN]: Keeping entity Pig that already exists with UUID dbfc89af-c92f-4b56-bb82-e27c283832a6
+[09:34:29] [Server thread/WARN]: Keeping entity Pig that already exists with UUID a6bb6303-4b23-449a-86d6-da64fa09d593
+[09:34:30] [Server thread/WARN]: Keeping entity Sheep that already exists with UUID 4fb0d1e9-5cc5-4f0b-9ac7-a071f8d261be
+[09:34:30] [Server thread/WARN]: Keeping entity Pig that already exists with UUID c2c8af46-0ade-494a-9f51-e228079f31c4
+[09:35:05] [Server thread/INFO]: Saving and pausing game...
+[09:35:05] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[09:35:06] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[09:35:06] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[09:35:06] [Server thread/INFO]: Stopping server
+[09:35:06] [Server thread/INFO]: Saving players
+[09:35:06] [Server thread/INFO]: Saving worlds
+[09:35:06] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[09:35:06] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[09:35:06] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[09:35:07] [Client thread/INFO]: Stopping!
+[09:35:07] [Client thread/INFO]: SoundSystem shutting down...
+[09:35:07] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

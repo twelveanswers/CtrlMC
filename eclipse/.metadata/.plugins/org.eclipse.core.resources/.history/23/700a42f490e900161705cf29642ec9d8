@@ -1,0 +1,33 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class Creative extends Module {
+
+	public Creative() {
+	
+		super("Creative", Keyboard.KEY_B, Category.PLAYER);
+
+	}
+	
+	@Override
+	public void onEnable() {
+			
+		mc.thePlayer.capabilities.isCreativeMode = true;
+		this.setToggled(true);
+
+	}	
+
+	
+	@Override
+	public void onDisable() {
+		
+		mc.thePlayer.capabilities.isCreativeMode = false;
+		
+	}
+
+
+}

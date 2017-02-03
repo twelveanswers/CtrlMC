@@ -2,14 +2,20 @@ package escapemc.module;
 
 import java.util.ArrayList;
 
+import escapemc.module.modules.Criticals;
 import escapemc.module.modules.Fly;
 import escapemc.module.modules.Fullbright;
+import escapemc.module.modules.Killaura;
+import escapemc.module.modules.Reach;
 import escapemc.module.modules.Speed;
 import escapemc.module.modules.Sprint;
 
 public class ModuleManager {
 
 	public static ArrayList<Module> Modules = new ArrayList<Module>();
+	
+	public static Criticals criticals = new Criticals();
+	public static Reach reach = new Reach();
 	
 	
 	public static ArrayList<Module> getModules(){
@@ -32,6 +38,9 @@ public class ModuleManager {
 		addModule(new Fullbright());
 		addModule(new Sprint());
 		addModule(new Speed());
+		addModule(new Killaura());
+		addModule(criticals);
+		addModule(reach);
 		
 		
 	}

@@ -1,0 +1,7 @@
+package escapemc.module.modules;
+
+import escapemc.module.Module;
+
+public class Creative extends Module {
+
+}

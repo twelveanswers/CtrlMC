@@ -17,6 +17,7 @@ public class Module {
 			name = nm;
 			key = k;
 			category = c;
+			this.toggled = false;
 		}
 		
 		public void toggle(){
@@ -39,6 +40,7 @@ public class Module {
 		public void onDisable(){}
 		public void onUpdate(){}
 		public void onRender(){}
+		public void onToggle(){}
 		public void Tick(){}
 		public void Event(Event e){}
 
