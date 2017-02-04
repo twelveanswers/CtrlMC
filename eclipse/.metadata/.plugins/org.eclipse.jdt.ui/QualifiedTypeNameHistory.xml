@@ -9,7 +9,6 @@
 <fullyQualifiedTypeName name="net.minecraft.util.text.TextComponentString"/>
 <fullyQualifiedTypeName name="escapemc.Command.commands.CommandHelp"/>
 <fullyQualifiedTypeName name="escapemc.main.CtrlMC"/>
-<fullyQualifiedTypeName name="escapemc.main.Reference"/>
 <fullyQualifiedTypeName name="escapemc.Command.commands.CommandFullbright"/>
 <fullyQualifiedTypeName name="escapemc.module.modules.Fullbright"/>
 <fullyQualifiedTypeName name="escapemc.Command.commands.CommandBind"/>
@@ -34,8 +33,10 @@
 <fullyQualifiedTypeName name="java.awt.Point"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
-<fullyQualifiedTypeName name="escapemc.module.ModuleManager"/>
 <fullyQualifiedTypeName name="escapemc.Util.XRayUtil"/>
 <fullyQualifiedTypeName name="escapemc.Util.XRayUtils"/>
+<fullyQualifiedTypeName name="escapemc.main.Reference"/>
 <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+<fullyQualifiedTypeName name="escapemc.module.modules.Reach"/>
+<fullyQualifiedTypeName name="escapemc.module.ModuleManager"/>
 </qualifiedTypeNameHistroy>

@@ -6,4 +6,6 @@
 <typeInfo handle="=Client/src&lt;net.minecraft.client.entity{EntityPlayerSP.java[EntityPlayerSP" modifiers="1" timestamp="1485988991231"/>
 <typeInfo handle="=Client/src&lt;net.minecraft.client{Minecraft.java[Minecraft" modifiers="1" timestamp="1486037651802"/>
 <typeInfo handle="=Client/src&lt;net.minecraft.block{Block.java[Block" modifiers="1" timestamp="1486070822645"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.client.multiplayer{PlayerControllerMP.java[PlayerControllerMP" modifiers="1" timestamp="1486132400765"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.entity.player{PlayerCapabilities.java[PlayerCapabilities" modifiers="1" timestamp="1485701922194"/>
 </typeInfoHistroy>

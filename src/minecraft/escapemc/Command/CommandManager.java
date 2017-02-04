@@ -25,13 +25,13 @@ public class CommandManager {
 	}
 	
 	public static void callCommand(String s){
+		s = s.substring(1, s.length());
 		String[] split = s.split(" ");
 		String command = split[0];
-		String args = s.substring(1, s.length());
-			for(Command c: getCommands()){
+		for(Command c: getCommands()){
 				if(c.getName().equalsIgnoreCase(command)){
 					try{
-						c.onCommand(args, args.split(" "));
+						c.onCommand(s, split);
 					}catch(Exception e){
 						ChatUtil.SendChatMessage("Invalid Command Usage!");
 						ChatUtil.SendChatMessage(c.getSyntax());
