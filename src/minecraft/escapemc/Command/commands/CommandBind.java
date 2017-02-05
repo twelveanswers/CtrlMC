@@ -40,7 +40,7 @@ public class CommandBind extends Command {
 				}
 			}
 		} catch(Exception e) {
-			ChatUtil.SendChatMessage("Fuck, my code didn't work because of your shitty command.");
+			ChatUtil.SendChatMessage("Fuck, my code didn't work because of your shitty §acommand.");
 		}
 	}
 	@Override

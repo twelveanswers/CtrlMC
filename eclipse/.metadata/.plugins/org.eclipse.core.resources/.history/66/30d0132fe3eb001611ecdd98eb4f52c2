@@ -1,0 +1,28 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class Step extends Module {
+
+	public Step() {
+	
+		super("Step", Keyboard.KEY_G, Category.Movement);
+
+	}
+
+	@Override
+	public void onUpdate() {
+
+		if(this.isToggled()) {
+			
+			mc.thePlayer.stepHeight = 1F;
+			
+		}
+	
+	}
+	
+	
+}

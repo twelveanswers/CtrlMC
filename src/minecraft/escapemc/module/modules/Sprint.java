@@ -10,7 +10,7 @@ public class Sprint extends Module {
 
 	public Sprint() {
 	
-		super("Sprint", Keyboard.KEY_N, Category.MOVEMENT);
+		super("Sprint", Keyboard.KEY_N, Category.Movement);
 
 	}
 

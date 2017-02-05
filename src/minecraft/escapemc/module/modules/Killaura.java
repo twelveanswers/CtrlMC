@@ -4,9 +4,9 @@ import org.lwjgl.input.Keyboard;
 
 import escapemc.Event.Event;
 import escapemc.Event.events.EventPreMotion;
+import escapemc.Util.Timer;
 import escapemc.module.Category;
 import escapemc.module.Module;
-import escapemc.module.ModuleManager;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.entity.Entity;
@@ -18,11 +18,11 @@ public class Killaura extends Module {
 
 	public Killaura() {
 
-		super("Killaura", Keyboard.KEY_K, Category.COMBAT);
+		super("Killaura", Keyboard.KEY_K, Category.Combat);
 			
 	}
 
-	public static int Range = (int) 4.5;
+	public static int Range = (int) 4;
 	
 	public Entity ClosestEntity() {
 		Entity closest = null;
@@ -43,15 +43,20 @@ public class Killaura extends Module {
 	
 	
 	
+	private int delay;
+	
+	private Timer timer = new Timer();
+
 	
 	public Entity entity;
 	public void Tick() {
 		entity = ClosestEntity();
 		if(entity != null) {						
-				if(entity.getDistanceToEntity(mc.thePlayer) <= Range) {				
-					if(mc.thePlayer.getCooledAttackStrength(0.0F) >= 1.0F) {
-						mc.thePlayer.swingArm(EnumHand.MAIN_HAND);				
-						mc.playerController.attackEntity(mc.thePlayer, entity);;
+			if(entity.getDistanceToEntity(mc.thePlayer) <= Range) {				
+				if(timer.hasReached(2000)) {
+					 mc.playerController.attackEntity(mc.thePlayer, entity);
+					 mc.thePlayer.swingArm(EnumHand.MAIN_HAND);
+					timer.reset();
 				}
 			
 			}

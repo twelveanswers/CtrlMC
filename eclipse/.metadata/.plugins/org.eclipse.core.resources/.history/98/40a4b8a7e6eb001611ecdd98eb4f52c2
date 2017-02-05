@@ -1,0 +1,15 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class Zoom extends Module {
+
+	public Zoom() {
+		super("Zoom", Keyboard.KEY_Z, Category.Player);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -10,7 +10,7 @@ public class Criticals extends Module {
 
 	public Criticals() {
 	
-		super("Criticals", Keyboard.KEY_C, Category.COMBAT);
+		super("Criticals", Keyboard.KEY_C, Category.Combat);
 
 	}
 	

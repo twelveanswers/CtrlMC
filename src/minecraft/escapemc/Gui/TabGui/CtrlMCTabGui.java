@@ -1,5 +1,6 @@
 package escapemc.Gui.TabGui;
 
+import java.awt.Color;
 import java.util.ArrayList;
 
 import org.lwjgl.input.Keyboard;
@@ -26,26 +27,18 @@ public class CtrlMCTabGui extends Event {
 				int yC = 24;
 				currC = Category.values()[0];
 				for (int i = 0; i < Category.values().length; i++) {
-					Gui.drawRect(2, yC, maxCat, (yC + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2),
-							Integer.MIN_VALUE);
-					Gui.drawRect(2, yC, maxCat, (yC + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2),
-							(i == currCat) ? Integer.MIN_VALUE : 1);
-					Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(Category.values()[i].name(), 4, yC + 2,
-							-1);
+					Gui.drawRect(55, yC, maxCat, (yC + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), 0xff00ff00);
+					Gui.drawRect(55, yC, maxCat, (yC + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), (i == currCat) ? Integer.MIN_VALUE : 1);
+					Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(Category.values()[i].name(), 4, yC + 2, 0xffff00ff);
 					currC = Category.values()[currCat];
 					yC += 12;
 				}
 				int yCM = 24;
 				if (sec == Section.Modules) {
 					for (int i = 0; i < CtrlMCTabGui.getModulesInCat(currC).size(); i++) {
-						Gui.drawRect(maxCat + 2, yCM, maxCat + maxModule,
-								(yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), Integer.MIN_VALUE);
-						Gui.drawRect(maxCat + 2, yCM, maxCat + maxModule,
-								(yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2),
-								(i == currModule) ? Integer.MIN_VALUE : 1);
-						Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(
-								CtrlMCTabGui.getModulesInCat(currC).get(i).getName(), maxCat + 4, yCM + 2,
-								CtrlMCTabGui.getModulesInCat(currC).get(i).isToggled() ? 0x888888 : -1);
+						Gui.drawRect(115, yCM, 68, (yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), 0xff00ff00);
+						Gui.drawRect(115, yCM, 68, (yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), (i == currModule) ? Integer.MIN_VALUE : 1);
+						Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(CtrlMCTabGui.getModulesInCat(currC).get(i).getName(), maxCat + 70, yCM + 2, 0xffff00ff);
 						
 						//Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(text, x, y, color)
 						//Gui.drawRect(left, top, right, bottom, color);

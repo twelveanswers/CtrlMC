@@ -9,7 +9,7 @@ import escapemc.module.Module;
 public class Fly extends Module{
 
 	public Fly() {
-		super("Fly", Keyboard.KEY_Y, Category.MOVEMENT);
+		super("Fly", Keyboard.KEY_Y, Category.Movement);
 	}
 
 	double startY;

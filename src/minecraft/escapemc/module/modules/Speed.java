@@ -8,7 +8,7 @@ import escapemc.module.Module;
 public class Speed extends Module {
 
 	public Speed() {
-		super("speed", Keyboard.KEY_Z, Category.MOVEMENT);
+		super("Speed", Keyboard.KEY_V, Category.Movement);
 	}
 
 	@Override

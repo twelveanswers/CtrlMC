@@ -6,8 +6,10 @@ import escapemc.module.modules.Criticals;
 import escapemc.module.modules.Fly;
 import escapemc.module.modules.Fullbright;
 import escapemc.module.modules.Killaura;
+import escapemc.module.modules.NoFall;
 import escapemc.module.modules.Speed;
 import escapemc.module.modules.Sprint;
+import escapemc.module.modules.Step;
 import net.minecraft.client.Minecraft;
 
 public class ModuleManager {
@@ -39,6 +41,8 @@ public class ModuleManager {
 		addModule(new Speed());
 		addModule(new Killaura());
 		addModule(criticals);
+		addModule(new Step());
+		addModule(new NoFall());
 		
 		
 	}

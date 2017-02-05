@@ -1,0 +1,5 @@
+package escapemc.module.modules;
+
+public class Zoom {
+
+}
