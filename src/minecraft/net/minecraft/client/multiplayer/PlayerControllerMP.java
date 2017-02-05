@@ -2,9 +2,6 @@ package net.minecraft.client.multiplayer;
 
 import javax.annotation.Nullable;
 
-import escapemc.module.Module;
-import escapemc.module.ModuleManager;
-import escapemc.module.modules.Reach;
 import io.netty.buffer.Unpooled;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockCommandBlock;
@@ -359,17 +356,8 @@ public class PlayerControllerMP
      */
     public float getBlockReachDistance()
     {
-   
-    	if(ModuleManager.reach.isToggled()) {
-    			
-    		return 50.0F;
-    			
-    		}else{
-    	
-    			return this.currentGameType.isCreative() ? 5.0F : 4.5F;
-          		
-    	}
-    	
+  		return this.currentGameType.isCreative() ? 5.0F : 4.5F;
+          		    	
     }
 
     public void updateController()

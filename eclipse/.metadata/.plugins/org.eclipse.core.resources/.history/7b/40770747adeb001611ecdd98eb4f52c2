@@ -1,0 +1,5 @@
+package escapemc.Event;
+
+public class HookManager {
+
+}

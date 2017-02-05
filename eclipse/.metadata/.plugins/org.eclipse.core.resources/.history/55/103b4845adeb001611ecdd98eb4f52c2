@@ -1,0 +1,22 @@
+package escapemc.Event.events;
+
+import escapemc.Event.Event;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+
+public class EventRender2D extends Event {
+	
+	
+	public static float partialTicks;
+	
+	public void onRender2D() {
+		
+		for(Module m : ModuleManager.getModules()) {
+            
+             m.onRender2D(partialTicks);
+		
+		}
+            
+	}
+	
+}

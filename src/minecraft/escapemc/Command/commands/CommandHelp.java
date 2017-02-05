@@ -36,7 +36,7 @@ public class CommandHelp extends Command {
 		
 		for(Command c : CommandManager.getCommands()) {
 			
-			ChatUtil.SendChatMessage(c.getName() + ":"+ c.getDescription());
+			ChatUtil.SendChatMessage(c.getName() + ": "+ c.getDescription());
 			
 		}
 		

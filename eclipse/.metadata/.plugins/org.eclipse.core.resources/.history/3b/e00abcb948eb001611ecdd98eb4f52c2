@@ -1,0 +1,94 @@
+package escapemc.Command;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.NoSuchElementException;
+
+/**
+ * The command manager class.
+ * 
+ * @author Wdestroier
+ * @since 23/04/2016
+ */
+public final class CommandManager {
+
+	/**
+	 * The command prefix.
+	 */
+	private char commandPrefix;
+
+	/**
+	 * The list of commands.
+	 */
+	private List<Command> commands = new ArrayList<Command>();
+
+	/**
+	 * Command manager constructor.
+	 * 
+	 * @param commandsPackage
+	 *            the path of the package, or sub package, containing all
+	 *            commands
+	 * @param commandPrefix
+	 *            the prefix for the commands
+	 * @see com.wdestroier.client.utils.Reflection#getClasses(String packageName)
+	 */
+	public CommandManager(char commandPrefix) {
+		this.commandPrefix = commandPrefix;
+
+		//commands.add(new Friend());
+	}
+
+	/**
+	 * Searches for a command and runs it based on the input.
+	 * 
+	 * @param message
+	 *            the input
+	 */
+	public final void runCommand(String message) {
+		String[] arguments = message.split(" ");
+		Command command = commands.stream().filter(c -> arguments[0].equalsIgnoreCase(commandPrefix + c.getName())).findAny().orElseThrow(() -> new NoSuchElementException("Command not found: " + arguments[0]));
+
+		try {
+			command.run(message, arguments);
+		} catch (Exception e) {
+			throw new IllegalArgumentException(String.format("Usage: %s%s %s", commandPrefix, command.getName(), command.getArguments()));
+		}
+	}
+
+	/**
+	 * Sets the command prefix.
+	 * 
+	 * @param commandPrefix
+	 *            the command prefix
+	 */
+	public void setCommandPrefix(char commandPrefix) {
+		this.commandPrefix = commandPrefix;
+	}
+
+	/**
+	 * Gets the command prefix.
+	 * 
+	 * @return commandPrefix the command prefix
+	 */
+	public char getCommandPrefix() {
+		return commandPrefix;
+	}
+
+	/**
+	 * Gets the list of commands.
+	 * 
+	 * @return commands the list of commands
+	 */
+	public List<Command> getCommands() {
+		return commands;
+	}
+
+	public Command getCommand(Class<? extends Command> clazz) {
+		return commands.stream().filter(command -> command.getClass().equals(clazz)).findAny().orElse(null);
+	}
+
+	public Command getCommand(String name) {
+		return commands.stream().filter(command -> command.getName().equals(name)).findAny().orElse(null);
+	}
+
+}

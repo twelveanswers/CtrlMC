@@ -12,6 +12,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Ordering;
 
 import escapemc.Gui.Ingame.CtrlMCOverlay;
+import escapemc.Gui.TabGui.CtrlMCTabGui;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiContainer;
@@ -142,6 +143,7 @@ public class GuiIngame extends Gui
     {
     	
     	CtrlMCOverlay.drawOverlay();
+    	CtrlMCTabGui.onRender2D();;
     	
         ScaledResolution scaledresolution = new ScaledResolution(this.mc);
         int i = scaledresolution.getScaledWidth();

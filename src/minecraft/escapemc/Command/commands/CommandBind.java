@@ -15,30 +15,32 @@ public class CommandBind extends Command {
 
 	@Override
 	public void onCommand(String command, String[] args) throws Exception {
-
-		if(args[0].equalsIgnoreCase("set")){
-			args[2] = args[2].toUpperCase();
-			int key = Keyboard.getKeyIndex(args[2]);
-			
-			for(Module m: ModuleManager.Modules){
-				if(args[1].equalsIgnoreCase(m.getName())){
-					m.setKey(Keyboard.getKeyIndex(Keyboard.getKeyName(key)));
-					ChatUtil.SendChatMessage(args[1] + " has been binded to " + args[2]);
+		try {
+			if(args[1].equalsIgnoreCase("set")) {
+				for(Module m : ModuleManager.getModules()) {
+					ChatUtil.SendChatMessage(args[2]);
+					if(m.getName().equalsIgnoreCase(args[2])) {
+						if(Keyboard.getKeyIndex(args[3].toUpperCase()) == 0) {
+							ChatUtil.SendChatMessage("Invalid key.");
+						}
+						m.setKey(Keyboard.getKeyIndex(args[3].toUpperCase()));
+						ChatUtil.SendChatMessage("Bound " + m.getName() + " to " + Keyboard.getKeyName(m.getKey()) + ".");
+						break;
+					}
 				}
 			}
 			
-		}else if(args[0].equalsIgnoreCase("del")){
-			for(Module m: ModuleManager.Modules){
-				if(m.getName().equalsIgnoreCase(args[1])){
-					m.setKey(0);
-					ChatUtil.SendChatMessage(args[1] + " has been unbinded");
+			if(args[1].equalsIgnoreCase("del")) {
+				for(Module m : ModuleManager.getModules()) {
+					if(m.getName().equalsIgnoreCase(args[2])) {
+						m.setKey(0);
+						ChatUtil.SendChatMessage("Removed bind on " + m.getName() + ".");
+						break;
+					}
 				}
 			}
-		}else if(args[0].equalsIgnoreCase("clear")){
-			for(Module m: ModuleManager.Modules){
-				m.setKey(0);
-			}
-			ChatUtil.SendChatMessage("All keys cleared");
+		} catch(Exception e) {
+			ChatUtil.SendChatMessage("Fuck, my code didn't work because of your shitty command.");
 		}
 	}
 	@Override
@@ -57,7 +59,7 @@ public class CommandBind extends Command {
 	@Override
 	public String getSyntax() {
 	
-		return "-bind set [MOD] [Key] | -bind del [MOD] | -bind clear";
+		return "-bind set [MOD] [Key] | -bind del [MOD]";
 	
 	}
 	

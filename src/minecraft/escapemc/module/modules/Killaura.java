@@ -19,10 +19,10 @@ public class Killaura extends Module {
 	public Killaura() {
 
 		super("Killaura", Keyboard.KEY_K, Category.COMBAT);
-	
+			
 	}
 
-	public static int Range = (int) 50;
+	public static int Range = (int) 4.5;
 	
 	public Entity ClosestEntity() {
 		Entity closest = null;
@@ -41,15 +41,15 @@ public class Killaura extends Module {
 		
 	}
 	
+	
+	
+	
 	public Entity entity;
 	public void Tick() {
 		entity = ClosestEntity();
 		if(entity != null) {						
 				if(entity.getDistanceToEntity(mc.thePlayer) <= Range) {				
 					if(mc.thePlayer.getCooledAttackStrength(0.0F) >= 1.0F) {
-						if(ModuleManager.criticals.isToggled()) {							
-							ModuleManager.criticals.doCrits();							
-						}						
 						mc.thePlayer.swingArm(EnumHand.MAIN_HAND);				
 						mc.playerController.attackEntity(mc.thePlayer, entity);;
 				}

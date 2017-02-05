@@ -6,7 +6,7 @@ import net.minecraft.network.play.server.SPacketChat;
 
 public class Module {
 		
-		protected Minecraft mc = Minecraft.getMinecraft();
+		public Minecraft mc = Minecraft.getMinecraft();
 		
 		private String name;
 		private int key;
@@ -36,10 +36,12 @@ public class Module {
 			}
 		}
 		
+		public float partialTicks;
+		
 		public void onEnable(){}
 		public void onDisable(){}
 		public void onUpdate(){}
-		public void onRender(){}
+		public void onRender2D(float partialTicks) {}
 		public void onToggle(){}
 		public void Tick(){}
 		public void Event(Event e){}

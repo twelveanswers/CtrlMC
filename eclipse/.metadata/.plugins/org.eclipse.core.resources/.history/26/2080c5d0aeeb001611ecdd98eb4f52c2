@@ -1,0 +1,32 @@
+package escapemc.Event;
+
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+
+public class HookManager {
+
+	public static float partialTicks;
+	
+	public void onRender2D() {
+		
+		for(Module m : ModuleManager.getModules()) {
+            
+             m.onRender2D(partialTicks);
+		
+		}
+            
+	}
+
+	public static int key;
+
+	public static void onKeyPress(int i) {
+		key = i;	
+		for(Module m : ModuleManager.Modules) {
+            if(i == m.getKey()) {
+				m.toggle();
+            }
+		}
+        
+	}
+	
+}

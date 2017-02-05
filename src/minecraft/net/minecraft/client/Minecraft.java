@@ -57,6 +57,7 @@ import com.mojang.authlib.minecraft.MinecraftSessionService;
 import com.mojang.authlib.properties.PropertyMap;
 import com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService;
 
+import escapemc.Event.HookManager;
 import escapemc.main.CtrlMC;
 import escapemc.module.Module;
 import escapemc.module.ModuleManager;
@@ -243,7 +244,7 @@ public class Minecraft implements IThreadListener, ISnooperInfo
 
     /** True if the player is connected to a realms server */
     private boolean connectedToRealms;
-    private final Timer timer = new Timer(20.0F);
+    public final Timer timer = new Timer(20.0F);
 
     /** Instance of PlayerUsageSnooper. */
     private final Snooper usageSnooper = new Snooper("client", this, MinecraftServer.getCurrentTimeMillis());
@@ -2014,6 +2015,7 @@ public class Minecraft implements IThreadListener, ISnooperInfo
 
             if (this.currentScreen != null)
             {
+            	                               	
                 this.currentScreen.handleKeyboardInput();
             }
 
@@ -2029,19 +2031,9 @@ public class Minecraft implements IThreadListener, ISnooperInfo
                 boolean flag1 = false;
 
                 if (this.currentScreen == null)
-                {
+                {            
                 	
-                	for(Module m : ModuleManager.Modules) {
-                		
-                		if(i == m.getKey()) {
-                			
-                			m.toggle();
-                			
-                		}
-                		
-                	}
-                	
-                	
+                	HookManager.onKeyPress(i);
                 	
                     if (i == 1)
                     {

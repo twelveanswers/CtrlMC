@@ -1,0 +1,26 @@
+package escapemc.Event.events;
+
+import escapemc.Event.Event;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+
+public class EventRender2D extends Event {
+	
+	
+	float particleTicks;
+	
+	public void onRender2D() {
+		
+		for(Module m : ModuleManager.getModules()) {
+            
+            if(particleTicks == m.getKey()) {
+             
+             m.onRender2D();
+             
+            }
+		
+		}
+            
+	}
+	
+}

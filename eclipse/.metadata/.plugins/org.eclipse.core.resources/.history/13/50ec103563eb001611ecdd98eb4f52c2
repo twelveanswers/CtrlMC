@@ -1,0 +1,23 @@
+package escapemc.Event.events;
+
+import escapemc.Event.Event;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+
+public class EventRender2D extends Event {
+	
+	public void onRender2D() {
+		
+		for(Module m : ModuleManager.Modules) {
+            
+            if(i == m.getKey()) {
+             
+             m.toggle();
+             
+            }
+		
+		}
+            
+	}
+	
+}

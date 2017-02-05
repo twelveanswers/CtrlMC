@@ -1,0 +1,27 @@
+package escapemc.Event.events;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.Event.Event;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+
+public class EventKeyPress extends Event {
+
+	public static void onKeyPress(int key) {
+		
+		i = Keyboard.getEventKey() == 0 ? Keyboard.getEventCharacter() + 256 : Keyboard.getEventKey();
+		
+		for(Module m : ModuleManager.Modules) {
+            
+            if(i == m.getKey()) {
+             
+             m.toggle();
+             
+            }
+		
+		}
+            
+	}
+	
+}

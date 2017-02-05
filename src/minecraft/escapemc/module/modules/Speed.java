@@ -20,6 +20,7 @@ public class Speed extends Module {
 			
 		}else{
 			
+			mc.timer.timerSpeed = 1.2F;
 			mc.thePlayer.motionY = -0.5;
 			
 		}

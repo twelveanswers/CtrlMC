@@ -6,16 +6,15 @@ import escapemc.module.modules.Criticals;
 import escapemc.module.modules.Fly;
 import escapemc.module.modules.Fullbright;
 import escapemc.module.modules.Killaura;
-import escapemc.module.modules.Reach;
 import escapemc.module.modules.Speed;
 import escapemc.module.modules.Sprint;
+import net.minecraft.client.Minecraft;
 
 public class ModuleManager {
 
 	public static ArrayList<Module> Modules = new ArrayList<Module>();
 	
 	public static Criticals criticals = new Criticals();
-	public static Reach reach = new Reach();
 	
 	
 	public static ArrayList<Module> getModules(){
@@ -40,7 +39,6 @@ public class ModuleManager {
 		addModule(new Speed());
 		addModule(new Killaura());
 		addModule(criticals);
-		addModule(reach);
 		
 		
 	}
@@ -54,7 +52,7 @@ public class ModuleManager {
 	
 	public static void onRender(){
 		for(Module m: Modules){
-			m.onRender();
+			m.onRender2D(Minecraft.getMinecraft().timer.renderPartialTicks);
 		}
 	}
 	

@@ -1,0 +1,23 @@
+package escapemc.Event.events;
+
+import escapemc.Event.Event;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+
+public class EventKeyPress extends Event {
+
+	public static void onKeyPress() {
+		
+		for(Module m : ModuleManager.Modules) {
+            
+            if(i == m.getKey()) {
+             
+             m.toggle();
+             
+            }
+		
+		
+	}
+	
+	
+}

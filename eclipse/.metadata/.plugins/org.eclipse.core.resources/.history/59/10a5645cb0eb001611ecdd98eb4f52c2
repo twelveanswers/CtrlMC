@@ -1,0 +1,19 @@
+package escapemc.Event;
+
+import escapemc.Gui.TabGui.CtrlMCTabGui;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+
+public class HookManager {
+
+	public static float partialTicks;
+	
+	public static int key;
+
+	public static void onKeyPress() {
+        
+		CtrlMCTabGui.onKeyPress(key);
+		
+	}
+	
+}

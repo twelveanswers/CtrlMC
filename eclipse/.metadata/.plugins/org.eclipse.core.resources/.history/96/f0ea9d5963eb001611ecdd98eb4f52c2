@@ -1,0 +1,147 @@
+package escapemc.Gui.TabGui;
+
+import java.util.ArrayList;
+
+import org.lwjgl.input.Keyboard;
+
+import cf.euphoria.Utopia.Utopia;
+import cf.euphoria.Utopia.eventapi.events.EventRender2D;
+import escapemc.Event.Event;
+import escapemc.Event.EventHandler;
+import escapemc.Event.events.EventKeyPress;
+import escapemc.module.Category;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.Gui;
+
+public class CtrlMCTabGui {
+
+	private Section sec = Section.CATS;
+	private int maxCat, maxModule, currCat, currModule;
+	private Category currC;
+
+	public CtrlMCTabGui() {
+		//TODO
+		/*
+		 * LOOK HERE
+		 */
+	}
+
+	public void init() {
+		for (Category cat : Cat.values()) {
+			if (Minecraft.getMinecraft().fontRendererObj.getStringWidth(cat.name()) > maxCat) {
+				maxCat = Minecraft.getMinecraft().fontRendererObj.getStringWidth(cat.name());
+			}
+		}
+		maxCat += 6;
+		for (Module m : Utopia.getUtopia().Modules.getModules()) {
+			if (Minecraft.getMinecraft().fontRendererObj.getStringWidth(m.getName()) > maxModule) {
+				maxModule = Minecraft.getMinecraft().fontRendererObj.getStringWidth(m.getName());
+			}
+		}
+		maxModule += 6;
+	}
+
+	@Override
+	public void onEvent(Event event) {
+		if (!Minecraft.getMinecraft().gameSettings.showDebugInfo) {
+			if (event.getClass() == EventRender2D.class) {
+				int yC = 24;
+				currC = Cat.values()[0];
+				for (int i = 0; i < Cat.values().length; i++) {
+					Gui.drawRect(2, yC, maxCat, (yC + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2),
+							Integer.MIN_VALUE);
+					Gui.drawRect(2, yC, maxCat, (yC + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2),
+							(i == currCat) ? Integer.MIN_VALUE : 1);
+					Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(Cat.values()[i].name(), 4, yC + 2,
+							-1);
+					currC = Cat.values()[currCat];
+					yC += 12;
+				}
+				int yCM = 24;
+				if (sec == Section.ModuleS) {
+					for (int i = 0; i < this.getModulesInCat(currC).size(); i++) {
+						Gui.drawRect(maxCat + 2, yCM, maxCat + maxModule,
+								(yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), Integer.MIN_VALUE);
+						Gui.drawRect(maxCat + 2, yCM, maxCat + maxModule,
+								(yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2),
+								(i == currModule) ? Integer.MIN_VALUE : 1);
+						Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(
+								this.getModulesInCat(currC).get(i).getName(), maxCat + 4, yCM + 2,
+								this.getModulesInCat(currC).get(i).isEnabled() ? 0x888888 : -1);
+						yCM += 12;
+					}
+				}
+			}
+			if (event.getClass() == EventKeyPress.class) {
+				switch (((EventKeyPress) event).getKey()) {
+				case Keyboard.KEY_DOWN:
+					if (this.sec == Section.CATS) {
+						if (this.currCat < Cat.values().length - 1) {
+							this.currCat++;
+						} else {
+							this.currCat = 0;
+						}
+					}
+					if (this.sec == Section.Modules) {
+						if (this.currModule < this.getModulesInCat(currC).size() - 1) {
+							this.currModule++;
+						} else {
+							this.currModule = 0;
+						}
+					}
+					break;
+				case Keyboard.KEY_UP:
+					if (this.sec == Section.CATS) {
+						if (this.currCat > 0) {
+							this.currCat--;
+						} else {
+							this.currCat = Cat.values().length - 1;
+						}
+					}
+					if (this.sec == Section.Modules) {
+						if (this.currModule > 0) {
+							this.currModule--;
+						} else {
+							this.currModule = this.getModulesInCat(currC).size() - 1;
+						}
+					}
+					break;
+				case Keyboard.KEY_LEFT:
+					if (sec == Section.Modules) {
+						sec = Section.CATS;
+					}
+					break;
+				case Keyboard.KEY_RIGHT:
+					if (sec == Section.Modules) {
+						Module m = this.getModulesInCat(currC).get(currModule);
+						if (m != null) {
+							m.toggle();
+						}
+					}
+					if (sec == Section.CATS) {
+						sec = Section.Modules;
+						this.currModule = 0;
+					}
+					break;
+				}
+			}
+		}
+	}
+
+	public ArrayList<Module> getModulesInCat(Cat cat) {
+		ArrayList<Module> arr = new ArrayList<Module>();
+		for (Module m : ModuleManager.getModules()) {
+			if (m.getCategory() == cat) {
+				arr.add(m);
+			}
+		}
+		return arr;
+	}
+
+	private enum Section {
+		CATS, Modules;
+	}
+
+}
