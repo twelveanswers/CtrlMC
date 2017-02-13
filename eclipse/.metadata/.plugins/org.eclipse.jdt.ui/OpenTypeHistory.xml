@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=Client/src&lt;net.minecraft.client.gui{GuiIngame.java[GuiIngame" modifiers="1" timestamp="1485886962063"/>
 <typeInfo handle="=Client/src&lt;net.minecraft.client.gui{GuiMainMenu.java[GuiMainMenu" modifiers="1" timestamp="1485908831225"/>
 <typeInfo handle="=Client/src&lt;net.minecraft.network{NetworkManager.java[NetworkManager" modifiers="1" timestamp="1485986961966"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.block{Block.java[Block" modifiers="1" timestamp="1486736990241"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.entity.ai{EntityAIAttackMelee.java[EntityAIAttackMelee" modifiers="1" timestamp="1485701919900"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.entity.player{EntityPlayer.java[EntityPlayer" modifiers="1025" timestamp="1485701922118"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.entity.player{EntityPlayerMP.java[EntityPlayerMP" modifiers="1" timestamp="1485701922139"/>
 <typeInfo handle="=Client/src&lt;net.minecraft.client.entity{EntityPlayerSP.java[EntityPlayerSP" modifiers="1" timestamp="1485988991231"/>
-<typeInfo handle="=Client/src&lt;net.minecraft.client{Minecraft.java[Minecraft" modifiers="1" timestamp="1486037651802"/>
-<typeInfo handle="=Client/src&lt;net.minecraft.block{Block.java[Block" modifiers="1" timestamp="1486070822645"/>
-<typeInfo handle="=Client/src&lt;net.minecraft.client.multiplayer{PlayerControllerMP.java[PlayerControllerMP" modifiers="1" timestamp="1486132400765"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.client{Minecraft.java[Minecraft" modifiers="1" timestamp="1486306258500"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.client.gui{GuiIngame.java[GuiIngame" modifiers="1" timestamp="1486307603723"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.client.renderer.entity{RenderManager.java[RenderManager" modifiers="1" timestamp="1486571056637"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.network{PacketThreadUtil.java[PacketThreadUtil" modifiers="1" timestamp="1486340427811"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.client.renderer{EntityRenderer.java[EntityRenderer" modifiers="1" timestamp="1486441354515"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.client.multiplayer{PlayerControllerMP.java[PlayerControllerMP" modifiers="1" timestamp="1486316827256"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.server.management{PlayerInteractionManager.java[PlayerInteractionManager" modifiers="1" timestamp="1485701926390"/>
 <typeInfo handle="=Client/src&lt;net.minecraft.entity.player{PlayerCapabilities.java[PlayerCapabilities" modifiers="1" timestamp="1485701922194"/>
+<typeInfo handle="=Client/C:\/Program Files\/Java\/jre1.8.0_121\/lib\/ext\/jfxrt.jar&lt;com.sun.media.jfxmedia.events(PlayerEvent.class[PlayerEvent" modifiers="33" timestamp="1485700681927"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.util{MovementInput.java[MovementInput" modifiers="1" timestamp="1485701927510"/>
+<typeInfo handle="=Client/src&lt;net.minecraft.util{MovementInputFromOptions.java[MovementInputFromOptions" modifiers="1" timestamp="1485701927518"/>
 </typeInfoHistroy>

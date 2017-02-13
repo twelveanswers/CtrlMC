@@ -1,0 +1,34 @@
+package escapemc.Event.events;
+
+import org.apache.http.concurrent.Cancellable;
+
+import escapemc.Event.Event;
+import escapemc.Event.listener.Listener;
+import escapemc.main.CtrlMC;
+import net.minecraft.network.Packet;
+
+public class EventPacketReceive extends Event {
+
+	private Packet packet;
+	
+	public EventPacketReceive(Packet packet){
+		this.packet = packet;
+	}
+	
+	public void onEvent(){
+		try{
+			for(Listener l : CtrlMC.getInstance().getEventManager().eventListeners){
+				if(l instanceof ModListener){
+					ModListener mod = (ModListener) l;
+					mod.onPacketReceive(this);
+				}
+			}
+		}catch(Exception e){}
+	}
+	
+	public Packet getPacket(){
+		return packet;
+	}
+
+	
+}

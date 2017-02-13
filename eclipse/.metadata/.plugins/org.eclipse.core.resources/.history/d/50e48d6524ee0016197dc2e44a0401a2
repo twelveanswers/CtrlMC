@@ -1,0 +1,31 @@
+package escapemc.module.modules;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+import net.minecraft.client.Minecraft;
+
+public class Zoom extends Module {
+
+	public Zoom() {
+	
+		super("Zoom", 0, Category.Movement);
+
+	}
+
+	@Override
+	public void Tick() {
+		if((mc.thePlayer.moveForward != 0 || Minecraft.getMinecraft().thePlayer.moveStrafing != 0) && !mc.thePlayer.isSneaking() && mc.thePlayer.onGround) {
+			mc.thePlayer.capabilities.setPlayerWalkSpeed(100F);
+			
+			
+		}
+	}
+	
+	@Override
+	public void onDisable() {
+
+		mc.thePlayer.capabilities.setPlayerWalkSpeed(0.1F);
+	
+	}
+	
+}

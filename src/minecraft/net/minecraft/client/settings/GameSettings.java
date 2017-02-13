@@ -161,7 +161,7 @@ public class GameSettings
     /** Smooth Camera Toggle */
     public boolean smoothCamera;
     public boolean debugCamEnable;
-    public float fovSetting;
+    public static float fovSetting;
     public float gammaSetting;
     public float saturation;
 

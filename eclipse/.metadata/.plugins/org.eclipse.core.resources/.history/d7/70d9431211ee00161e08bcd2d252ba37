@@ -1,0 +1,32 @@
+package escapemc.Command.commands;
+
+import escapemc.Command.Command;
+
+public class CommandListModules extends Command {
+
+	@Override
+	public String getName() {
+
+		return "listmods";
+	
+	}
+
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getSyntax() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void onCommand(String command, String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

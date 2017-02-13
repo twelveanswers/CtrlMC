@@ -1,0 +1,13 @@
+package escapemc.module.modules;
+
+public class Snippet {
+	@Override
+	public void onUpdate()
+	{
+		mc.thePlayer.noClip = true;
+		mc.thePlayer.fallDistance = 0;
+		mc.thePlayer.onGround = true;
+	}
+	
+}
+

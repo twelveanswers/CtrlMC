@@ -1,0 +1,24 @@
+package escapemc.module.modules;
+
+import escapemc.Event.events.EventPacketReceive;
+import escapemc.module.Category;
+import escapemc.module.Module;
+import net.minecraft.network.Packet;
+
+public class AntiKnockback extends Module {
+
+	public AntiKnockback() {
+	
+		super("AntiKnockback", 0, Category.Player);
+
+	}
+
+	@Override
+	public void onPacketReceive(EventPacketReceive event){
+		Packet eventPacket = event.getPacket();
+		if(eventPacket instanceof S12PacketEntityVelocity){
+			event.cancel;
+		}
+	}
+	
+}

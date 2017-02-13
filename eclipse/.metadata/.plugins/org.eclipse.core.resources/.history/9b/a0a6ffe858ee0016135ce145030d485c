@@ -1,0 +1,67 @@
+package escapemc.Event;
+
+import java.util.ArrayList;
+
+import escapemc.Event.listener.Listener;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+
+public class EventHandler implements Manageable {
+
+	public static void onEvent(Event e) {
+		
+		for(Module m : ModuleManager.Modules) {
+			
+			if(m.isToggled()) {
+				
+				m.Event(e);
+				
+			}
+			
+		}
+		
+	}
+	public ArrayList<Listener> eventListeners = new ArrayList<Listener>();
+	public ArrayList<Listener> gameListeners = new ArrayList<Listener>();
+	
+	public void registerGameListener(Listener l){
+		if(!gameListeners.contains(l)){
+			gameListeners.add(l);
+		}
+	}
+	
+	public void unregisterGameListener(Listener l){
+		try{
+			if(gameListeners.contains(l)){
+				gameListeners.remove(gameListeners.indexOf(l));
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+		
+	@Override
+	public void register(Listener l) {
+		if(!eventListeners.contains(l)){
+			eventListeners.add(l);
+		}
+	}
+
+	@Override
+	public void unregister(Listener l) {
+		try{
+			if(eventListeners.contains(l)){
+				eventListeners.remove(eventListeners.indexOf(l));
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void clear() {
+		eventListeners.clear();
+	}
+
+
+}

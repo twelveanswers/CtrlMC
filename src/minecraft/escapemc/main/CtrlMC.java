@@ -3,6 +3,8 @@ package escapemc.main;
 import org.lwjgl.opengl.Display;
 
 import escapemc.Command.CommandManager;
+import escapemc.Event.EventHandler;
+import escapemc.Util.XRayUtils;
 import escapemc.module.ModuleManager;
 
 public class CtrlMC {
@@ -18,7 +20,7 @@ public class CtrlMC {
 		Display.setTitle("CTRLMC Client 1.0");
 		ModuleManager.registerModules();
 		CommandManager.getCommands();
+		XRayUtils.initXRayBlocks();
 		
-	}
-	
+	}	
 }

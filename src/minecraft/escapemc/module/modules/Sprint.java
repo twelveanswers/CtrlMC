@@ -10,7 +10,7 @@ public class Sprint extends Module {
 
 	public Sprint() {
 	
-		super("Sprint", Keyboard.KEY_N, Category.Movement);
+		super("Sprint", Keyboard.KEY_B, Category.Movement);
 
 	}
 
@@ -19,6 +19,7 @@ public class Sprint extends Module {
 
 		mc.thePlayer.setSprinting(true);
 		this.setToggled(true);
+		this.setColorToggle(true);
 
 	}
 		
@@ -27,6 +28,7 @@ public class Sprint extends Module {
 		
 		mc.thePlayer.setSprinting(false);
 		this.setToggled(false);
+		this.setColorToggle(false);
 		
 	}	
 	

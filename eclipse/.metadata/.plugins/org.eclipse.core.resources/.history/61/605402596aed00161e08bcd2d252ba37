@@ -1,0 +1,78 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Mode;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.network.NetHandlerPlayClient;
+import net.minecraft.network.play.client.CPacketPlayer;
+
+public class Criticals extends Module {
+
+	public Criticals() {
+	
+		super("Criticals", Keyboard.KEY_C, Category.Combat);
+
+	}
+	
+	@Override
+	public void onEnable() {
+
+		this.setToggled(true);
+		this.setColorToggle(true);
+	
+	}
+	
+	@Override
+	public void onDisable() {
+
+		this.setToggled(false);
+		this.setColorToggle(false);
+	
+	}
+
+	@Override
+	public void Tick() {
+
+		this.doCrits();
+	
+	}
+	
+	
+	public void doCrits()
+	{
+		
+		for(Module m : ModuleManager.Modules) {
+			if(m.getMode() == Mode.Jump) {
+			if(!mc.thePlayer.isInWater() && !mc.thePlayer.isInsideOfMaterial(Material.LAVA)	&& mc.thePlayer.onGround) {
+				mc.thePlayer.motionY = 0.1F;
+				mc.thePlayer.fallDistance = 0.1F;
+				mc.thePlayer.onGround = false;
+				break;
+			}
+		}
+			if(m.getMode() == Mode.Packet) {			
+					
+			double posX = mc.thePlayer.posX;
+			double posY = mc.thePlayer.posY;
+			double posZ = mc.thePlayer.posZ;
+			NetHandlerPlayClient connection = mc.thePlayer.connection;
+					
+			connection.sendPacket(new CPacketPlayer.Position(posX,
+				posY + 0.0625D, posZ, true));
+			connection.sendPacket(new CPacketPlayer.Position(posX,
+				posY, posZ, false));
+			connection.sendPacket(new CPacketPlayer.Position(posX,
+				posY + 1.1E-5D, posZ, false));
+			connection.sendPacket(new CPacketPlayer.Position(posX,
+				posY, posZ, false));
+			break;
+			}
+			
+		}
+	}
+}

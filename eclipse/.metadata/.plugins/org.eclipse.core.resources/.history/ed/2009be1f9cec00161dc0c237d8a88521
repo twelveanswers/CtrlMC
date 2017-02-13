@@ -1,0 +1,62 @@
+package escapemc.Command.commands;
+
+import escapemc.Command.Command;
+import escapemc.Util.ChatUtil;
+import escapemc.module.Module;
+import escapemc.module.ModuleManager;
+import escapemc.module.modules.Killaura;
+
+public class CommandKillauraSwitch extends Command {
+
+	@Override
+	public String getName() {
+		
+		return "mode";
+		
+	}
+
+	@Override
+	public String getDescription() {
+		
+		return "Switches mode (if any) for the module.";
+		
+	}
+
+	@Override
+	public String getSyntax() {
+		
+		return "-mode [MOD]";
+		
+	}
+
+	@Override
+	public void onCommand(String command, String[] args) throws Exception {
+
+		try{
+			for(Module m : ModuleManager.getModules()) {
+			
+				if(m.getName().equalsIgnoreCase(args[1])) {
+					
+					if(m.mode = false) {
+						m.togglemode();
+						ChatUtil.SendChatMessage("Changed the mode §aof " + m.getName() + ".");
+						ChatUtil.SendChatMessage("§bNote, §athe §aonly §aMods §athat §ahave §akeybinds §aso §afar §aare:");
+						ChatUtil.SendChatMessage("§cKillaura §a(Axe and Sword)");
+						ChatUtil.SendChatMessage("Setting True");
+						break;
+					}
+					if(m.mode = true) {
+						m.togglemode();
+						ChatUtil.SendChatMessage("Changed the mode §aof " + m.getName() + ".");
+						ChatUtil.SendChatMessage("§bNote, §athe §aonly §aMods §athat §ahave §akeybinds §aso §afar §aare:");
+						ChatUtil.SendChatMessage("§cKillaura §a(Axe and Sword)");
+						ChatUtil.SendChatMessage("Setting False");
+						break;
+					}
+				}
+			}
+		} catch(Exception e) {
+		ChatUtil.SendChatMessage("Fuck, my code didn't work because §aof §ayour §ashitty §acommand.");
+		}
+	}
+}

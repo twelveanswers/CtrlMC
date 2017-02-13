@@ -5,6 +5,10 @@ import com.google.common.collect.Maps;
 import com.google.common.collect.Queues;
 import com.google.common.collect.Sets;
 import com.google.gson.JsonSyntaxException;
+
+import escapemc.Util.XRayUtils;
+import escapemc.module.ModuleManager;
+
 import java.io.IOException;
 import java.util.Collection;
 import java.util.Iterator;
@@ -500,7 +504,7 @@ public class RenderGlobal implements IWorldEventListener, IResourceManagerReload
     public void loadRenderers()
     {
         if (this.theWorld != null)
-        {
+        {        	
             if (this.renderDispatcher == null)
             {
                 this.renderDispatcher = new ChunkRenderDispatcher();

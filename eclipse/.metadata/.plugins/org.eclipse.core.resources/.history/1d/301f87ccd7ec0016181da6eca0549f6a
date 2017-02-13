@@ -1,0 +1,7 @@
+package escapemc.module;
+
+public enum KillAuraMode {
+
+	Sword, Axe;
+	
+}

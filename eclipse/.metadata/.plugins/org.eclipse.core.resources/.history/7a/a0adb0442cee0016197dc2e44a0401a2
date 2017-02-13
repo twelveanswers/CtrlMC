@@ -1,0 +1,37 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.settings.GameSettings;
+
+public class Zoom extends Module {
+
+	public Zoom() {
+	
+		super("Zoom", Keyboard.KEY_Z, Category.Movement);
+
+	}
+
+	private float fov;
+	
+	@Override
+	public void Tick() {
+
+		mc.thePlayer.capabilities.setPlayerWalkSpeed(100F);
+		mc.gameSettings.getOptionFloatValue(GameSettings.Options.FOV);
+		fov = mc.gameSettings.getOptionFloatValue(GameSettings.Options.FOV);
+
+	
+	}
+	
+	@Override
+	public void onDisable() {
+
+		mc.thePlayer.capabilities.setPlayerWalkSpeed(0.1F);
+	
+	}
+	
+}

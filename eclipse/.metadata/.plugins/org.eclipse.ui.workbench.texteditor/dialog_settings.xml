@@ -2,23 +2,30 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="PlayerCapabilities" key="selection"/>
+		<item value="Light" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="reach&apos;"/>
-			<item value="reach"/>
-			<item value="getBlockReach"/>
-			<item value="onToggle"/>
-			<item value="should"/>
-			<item value="shouldside"/>
-			<item value="en "/>
-			<item value="en"/>
+			<item value="light"/>
+			<item value="key"/>
+			<item value="sensiti"/>
+			<item value="fov"/>
+			<item value="&quot;hand&quot;"/>
+			<item value="3d "/>
+			<item value="EventRender"/>
+			<item value=" render"/>
 		</list>
 		<list key="replacehistory">
-			<item value="e "/>
+			<item value="CtrlMCTabGui.sec"/>
+			<item value="CtrlMCTabGui.currModule"/>
+			<item value="CtrlMCTabGui.currCat"/>
+			<item value="CtrlMCTabGui.getModulesInCat"/>
+			<item value="Category.values"/>
+			<item value=""/>
+			<item value="ModuleManager.getModules()"/>
+			<item value="Module"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

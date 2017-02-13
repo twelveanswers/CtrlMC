@@ -1,0 +1,15 @@
+package escapemc.module.modules;
+
+public class KillAruaModeSwitch {
+
+	
+	public boolean mode;
+	
+	public static void setMode() {
+		
+		
+		
+	}
+	
+	
+}

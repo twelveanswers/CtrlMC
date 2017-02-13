@@ -1,0 +1,11 @@
+package escapemc.Event;
+
+import escapemc.Event.listener.Listener;
+
+public interface Manageable {
+	
+	void register(Listener l);
+	void unregister(Listener l);
+	void clear();
+	
+}

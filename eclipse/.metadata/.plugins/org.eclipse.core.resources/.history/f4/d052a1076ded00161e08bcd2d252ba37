@@ -1,0 +1,16 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class Panic extends Module {
+
+	public Panic() {
+	
+		super("Panic", Keyboard.KEY_P, Category.Gui);
+
+	}
+
+}

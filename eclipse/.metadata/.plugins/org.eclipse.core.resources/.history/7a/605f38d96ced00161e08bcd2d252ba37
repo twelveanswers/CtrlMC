@@ -1,0 +1,14 @@
+package escapemc.module.modules;
+
+public class Snippet {
+	@Override
+	public void onUpdate()
+	{
+		for(Mod mod : wurst.mods.getAllMods())
+			if(mod.isEnabled() && mod != this)
+				mod.setEnabled(false);
+		setEnabled(false);
+	}
+	
+}
+

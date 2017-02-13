@@ -1,0 +1,6 @@
+	public static Resilience getInstance(){
+		if(instance == null){
+			instance = new Resilience();
+		}
+		return instance;
+	}

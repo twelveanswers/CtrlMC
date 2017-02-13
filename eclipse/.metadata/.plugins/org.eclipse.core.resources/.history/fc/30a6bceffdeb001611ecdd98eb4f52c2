@@ -1,0 +1,79 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+import net.minecraft.entity.EntityLivingBase;
+
+public class ESP extends Module {
+
+	public ESP() {
+	
+		super("ESP", Keyboard.KEY_O, Category.Render);
+
+	}
+
+	@Override
+	public void onEnable() {
+
+		if(!this.isToggled()) {
+			
+			return;
+			
+		}
+	
+		
+		
+	}
+	
+	public void player(EntityLivingBase entity) {
+		
+		float red = 0.5F;
+		float green = 0.5F;
+		float blue = 1F;
+		
+		double xPos = (entity.lastTickPosX + (entity.posX - entity.lastTickPosX * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosX);
+		double yPos = (entity.lastTickPosY + (entity.posY - entity.lastTickPosY * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosY);
+		double zPos = (entity.lastTickPosX + (entity.posZ - entity.lastTickPosZ * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosZ);
+		
+		render(entity )
+		
+	}
+
+	public void mob(EntityLivingBase entity) {
+		
+		float red = 1F;
+		float green = 0.5F;
+		float blue = 0.5F;
+		
+				
+	}
+	
+	public void animal(EntityLivingBase entity) {
+		
+		float red = 0.5F;
+		float green = 1F;
+		float blue = 0.5F;
+		
+		
+	}
+
+	public void passive(EntityLivingBase entity) {
+		
+		float red = 0.5F;
+		float green = 0.5F;
+		float blue = 0.5F;
+		
+		
+	}
+
+	
+	@Override
+	public void onDisable() {
+
+		
+	
+	}
+	
+}

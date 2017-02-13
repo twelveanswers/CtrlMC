@@ -1,0 +1,38 @@
+package escapemc.module.modules;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class JesusWalk extends Module {
+
+	public JesusWalk() {
+
+		super("JesusWalk", 0, Category.Movement);
+	
+	}
+
+	private int ticksOutOfWater = 10;
+	public int time = 0;
+	public final int delay = 4;
+	
+	@Override
+	public void Tick()
+	{
+		if(!mc.gameSettings.keyBindSneak.pressed)
+			if(mc.thePlayer.isInWater())
+			{
+				mc.thePlayer.motionY = 0.11;
+				ticksOutOfWater = 0;
+			}else
+			{
+				if(ticksOutOfWater == 0)
+					mc.thePlayer.motionY = 0.30;
+				else if(ticksOutOfWater == 1)
+					mc.thePlayer.motionY = 0;
+				
+				ticksOutOfWater++;
+			}
+	}
+
+	
+}

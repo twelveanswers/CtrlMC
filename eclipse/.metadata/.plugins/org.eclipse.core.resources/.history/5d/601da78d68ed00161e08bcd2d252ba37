@@ -1,0 +1,27 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+import net.minecraft.item.ItemFood;
+import net.minecraft.network.play.client.CPacketPlayer;
+
+public class FastEat extends Module {
+
+	public FastEat() {
+	
+		super("FastEat", Keyboard.KEY_U, Category.Player);
+
+	}
+
+	@Override
+	public void Tick()
+	{
+		if(mc.thePlayer.getHealth() > 0 && mc.thePlayer.onGround && mc.thePlayer.inventory.getCurrentItem() != null && mc.thePlayer.inventory.getCurrentItem().getItem() instanceof ItemFood
+			&& mc.thePlayer.getFoodStats().needFood() && mc.gameSettings.keyBindUseItem.pressed)
+			for(int i = 0; i < 100; i++)
+				mc.thePlayer.connection.sendPacket(new CPacketPlayer(true));
+	}
+	
+}

@@ -1,0 +1,22 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class Glide extends Module {
+
+	public Glide() {
+	
+		super("Glide", Keyboard.KEY_G, Category.Movement);
+
+	}
+
+	public void Tick() {
+
+		mc.timer.timerSpeed = 2F;
+	
+	}
+	
+}

@@ -4,16 +4,21 @@ import java.util.ArrayList;
 
 import escapemc.Command.commands.CommandBind;
 import escapemc.Command.commands.CommandHelp;
+import escapemc.Command.commands.CommandListModules;
+import escapemc.Command.commands.CommandModeSwitch;
 import escapemc.Util.ChatUtil;
 
 public class CommandManager {
 	
 	public static ArrayList<Command> commands = null;
 	
-	public CommandManager(){
+	public CommandManager() {
 		
 		AddCommand(new CommandBind());
 		AddCommand(new CommandHelp());
+		AddCommand(new CommandModeSwitch());
+		AddCommand(new CommandListModules());
+		
 	}
 	
 	public static void AddCommand(Command c){

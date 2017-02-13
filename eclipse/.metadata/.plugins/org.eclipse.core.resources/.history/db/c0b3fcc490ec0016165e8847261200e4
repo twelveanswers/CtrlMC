@@ -1,0 +1,21 @@
+package escapemc.module.modules;
+
+public class KillAruaModeSwitch {
+
+	
+	public boolean mode;
+	
+	public void setMode(boolean mode) {
+		
+		this.mode = mode;
+		
+	}
+	
+	public boolean getMode() {
+		
+		return mode;
+		
+	}
+	
+	
+}

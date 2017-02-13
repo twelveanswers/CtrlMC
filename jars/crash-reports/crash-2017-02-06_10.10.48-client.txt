@@ -1,0 +1,81 @@
+---- Minecraft Crash Report ----
+// I blame Dinnerbone.
+
+Time: 2/6/17 10:10 AM
+Description: Unexpected error
+
+java.lang.ClassCastException: net.minecraft.entity.item.EntityItem cannot be cast to net.minecraft.entity.EntityLivingBase
+	at escapemc.module.modules.Tracers.onEnable(Tracers.java:28)
+	at escapemc.module.Module.toggle(Module.java:33)
+	at escapemc.Gui.TabGui.CtrlMCTabGui.onKeyPress(CtrlMCTabGui.java:95)
+	at escapemc.Event.HookManager.onKeyPress(HookManager.java:13)
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2036)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1885)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1148)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:456)
+	at net.minecraft.client.main.Main.main(Main.java:115)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at escapemc.module.modules.Tracers.onEnable(Tracers.java:28)
+	at escapemc.module.Module.toggle(Module.java:33)
+	at escapemc.Gui.TabGui.CtrlMCTabGui.onKeyPress(CtrlMCTabGui.java:95)
+	at escapemc.Event.HookManager.onKeyPress(HookManager.java:13)
+	at net.minecraft.client.Minecraft.runTickKeyboard(Minecraft.java:2036)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player546'/290, l='MpServer', x=-68.84, y=76.00, z=102.92]]
+	Chunk stats: MultiplayerChunkCache: 625, 625
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-188,64,252), Chunk: (at 4,4,12 in -12,15; contains blocks -192,0,240 to -177,255,255), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 152534 game time, 88865 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 40 total; [EntitySheep['Sheep'/260, l='MpServer', x=-20.55, y=67.37, z=51.47], EntityPig['Pig'/261, l='MpServer', x=-20.49, y=72.00, z=166.33], EntityPig['Pig'/263, l='MpServer', x=-24.21, y=76.00, z=181.50], EntityBat['Bat'/331, l='MpServer', x=-84.41, y=50.10, z=43.53], EntitySheep['Sheep'/270, l='MpServer', x=-12.64, y=70.00, z=57.79], EntitySheep['Sheep'/272, l='MpServer', x=-2.22, y=68.00, z=134.49], EntitySheep['Sheep'/273, l='MpServer', x=-0.19, y=71.00, z=159.47], EntityPlayerSP['Player546'/290, l='MpServer', x=-68.84, y=76.00, z=102.92], EntitySheep['Sheep'/279, l='MpServer', x=7.27, y=66.00, z=121.50], EntityCow['Cow'/216, l='MpServer', x=-90.21, y=70.00, z=61.55], EntityBat['Bat'/217, l='MpServer', x=-90.48, y=20.10, z=101.25], EntitySheep['Sheep'/218, l='MpServer', x=-91.27, y=70.00, z=161.49], EntityPig['Pig'/350, l='MpServer', x=-53.51, y=73.00, z=29.75], EntityBat['Bat'/351, l='MpServer', x=-52.10, y=23.13, z=41.24], EntityBat['Bat'/352, l='MpServer', x=-67.28, y=16.92, z=31.56], EntityItem['item.item.dyePowder.black'/225, l='MpServer', x=-64.69, y=47.00, z=73.88], EntityBat['Bat'/226, l='MpServer', x=-63.44, y=33.02, z=148.25], EntityBat['Bat'/227, l='MpServer', x=-77.25, y=31.10, z=151.43], EntityBat['Bat'/228, l='MpServer', x=-77.25, y=31.10, z=152.75], EntitySheep['Sheep'/229, l='MpServer', x=-69.50, y=72.00, z=151.73], EntitySheep['Sheep'/359, l='MpServer', x=-22.27, y=74.00, z=27.49], EntitySheep['Sheep'/232, l='MpServer', x=-48.84, y=67.00, z=63.74], EntitySheep['Sheep'/360, l='MpServer', x=-16.27, y=72.00, z=31.98], EntityBat['Bat'/233, l='MpServer', x=-61.31, y=31.06, z=111.19], EntitySheep['Sheep'/235, l='MpServer', x=-54.24, y=74.00, z=165.51], EntityBat['Bat'/172, l='MpServer', x=-138.55, y=27.00, z=131.84], EntitySheep['Sheep'/173, l='MpServer', x=-124.51, y=73.00, z=127.76], EntityBat['Bat'/174, l='MpServer', x=-135.75, y=25.02, z=166.47], EntitySheep['Sheep'/175, l='MpServer', x=-135.85, y=71.00, z=169.82], EntitySheep['Sheep'/176, l='MpServer', x=-131.24, y=72.00, z=160.48], EntityCow['Cow'/243, l='MpServer', x=-38.44, y=68.00, z=48.85], EntitySheep['Sheep'/244, l='MpServer', x=-43.55, y=65.30, z=63.52], EntitySheep['Sheep'/245, l='MpServer', x=-46.50, y=69.00, z=49.73], EntityBat['Bat'/246, l='MpServer', x=-45.41, y=41.10, z=150.54], EntitySheep['Sheep'/247, l='MpServer', x=-44.53, y=73.00, z=153.91], EntitySheep['Sheep'/248, l='MpServer', x=-42.79, y=74.00, z=152.34], EntitySheep['Sheep'/249, l='MpServer', x=-33.21, y=74.00, z=144.73], EntityBat['Bat'/185, l='MpServer', x=-123.50, y=27.87, z=65.47], EntityBat['Bat'/186, l='MpServer', x=-123.25, y=27.10, z=157.25], EntitySheep['Sheep'/251, l='MpServer', x=-36.46, y=73.00, z=170.25]]
+	Retry entities: 0 total; []
+	Server brand: vanilla
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:448)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2944)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:485)
+	at net.minecraft.client.main.Main.main(Main.java:115)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_121, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 824647936 bytes (786 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 48, allocated: 13, tallocated: 95
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Intel(R) Iris(TM) Graphics 6100 GL version 4.4.0 - Build 20.19.15.4531, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: ~~ERROR~~ NullPointerException: null
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz

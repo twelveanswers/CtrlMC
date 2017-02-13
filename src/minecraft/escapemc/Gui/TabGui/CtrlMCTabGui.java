@@ -24,22 +24,22 @@ public class CtrlMCTabGui extends Event {
 
 	public static void onRender2D() {
 		if (!Minecraft.getMinecraft().gameSettings.showDebugInfo) {
-				int yC = 24;
+			for(Module m : ModuleManager.Modules) {
+				int yC = 14;
 				currC = Category.values()[0];
 				for (int i = 0; i < Category.values().length; i++) {
-					Gui.drawRect(55, yC, maxCat, (yC + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), 0xff00ff00);
+					Gui.drawRect(55, yC, maxCat, (yC + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), 0xff00ffff);
 					Gui.drawRect(55, yC, maxCat, (yC + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), (i == currCat) ? Integer.MIN_VALUE : 1);
-					Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(Category.values()[i].name(), 4, yC + 2, 0xffff00ff);
+					Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(Category.values()[i].name(), 3, yC + 2, 0xff000000);
 					currC = Category.values()[currCat];
 					yC += 12;
 				}
-				int yCM = 24;
+				int yCM = 14;
 				if (sec == Section.Modules) {
 					for (int i = 0; i < CtrlMCTabGui.getModulesInCat(currC).size(); i++) {
-						Gui.drawRect(115, yCM, 68, (yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), 0xff00ff00);
-						Gui.drawRect(115, yCM, 68, (yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), (i == currModule) ? Integer.MIN_VALUE : 1);
-						Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(CtrlMCTabGui.getModulesInCat(currC).get(i).getName(), maxCat + 70, yCM + 2, 0xffff00ff);
-						
+						Gui.drawRect(121, yCM, 66, (yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), 0xff00ff00);
+						Gui.drawRect(121, yCM, 66, (yCM + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2), (i == currModule) ? Integer.MIN_VALUE : 1);
+						Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(CtrlMCTabGui.getModulesInCat(currC).get(i).getName(), maxCat + 68, yCM + 2, 0xffff00ff);
 						//Minecraft.getMinecraft().fontRendererObj.drawStringWithShadow(text, x, y, color)
 						//Gui.drawRect(left, top, right, bottom, color);
 						
@@ -48,6 +48,7 @@ public class CtrlMCTabGui extends Event {
 				}
 			}
 		}
+	}
 
 	public static void onKeyPress(int key) {
 						switch (key) {

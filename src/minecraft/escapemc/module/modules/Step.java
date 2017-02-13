@@ -9,23 +9,25 @@ public class Step extends Module {
 
 	public Step() {
 	
-		super("Step", Keyboard.KEY_G, Category.Movement);
+		super("Step", 0, Category.Movement);
 
 	}
-
+	
 	@Override
 	public void onEnable() {
 			
-		mc.thePlayer.stepHeight = 1.2F;
+		mc.thePlayer.stepHeight = 1.5F;
 		this.setToggled(true);
+		this.setColorToggle(true);
 		
 	}
 	
 	@Override
 	public void onDisable() {
 
-		mc.thePlayer.stepHeight = 0F;
+		mc.thePlayer.stepHeight = 0.5F;
 		this.setToggled(false);
+		this.setColorToggle(false);
 		
 	}
 	

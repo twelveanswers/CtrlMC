@@ -1,0 +1,12 @@
+package escapemc.Event.listener;
+
+import escapemc.Event.events.EventPacketReceive;
+
+public interface ModListener extends Listener {
+
+	public interface ModListener extends Listener{
+		
+	public void onPacketReceive(EventPacketReceive eventPacketReceive);
+
+	}	
+}

@@ -1,0 +1,20 @@
+package escapemc.module.modules;
+
+public interface KillAuraModeSwitch {
+
+	public boolean mode;
+	
+	public default void setMode(boolean mode) {
+		
+		this.mode = mode;
+		
+	}
+	
+	public default boolean getMode() {
+		
+		return mode;
+		
+	}
+
+	
+}

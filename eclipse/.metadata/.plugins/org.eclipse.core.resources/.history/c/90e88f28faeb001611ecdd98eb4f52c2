@@ -1,0 +1,30 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class ESP extends Module {
+
+	public ESP() {
+	
+		super("ESP", Keyboard.KEY_O, Category.Render);
+
+	}
+
+	@Override
+	public void Tick() {
+
+		
+	
+	}
+	
+	@Override
+	public void onDisable() {
+
+		
+	
+	}
+	
+}

@@ -1,0 +1,31 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+import net.minecraft.client.Minecraft;
+
+public class Zoom extends Module {
+
+	public Zoom() {
+	
+		super("Zoom", Keyboard.KEY_Z, Category.Movement);
+
+	}
+
+	@Override
+	public void Tick() {
+
+		mc.thePlayer.capabilities.setPlayerWalkSpeed(100F);			
+	
+	}
+	
+	@Override
+	public void onDisable() {
+
+		mc.thePlayer.capabilities.setPlayerWalkSpeed(0.1F);
+	
+	}
+	
+}

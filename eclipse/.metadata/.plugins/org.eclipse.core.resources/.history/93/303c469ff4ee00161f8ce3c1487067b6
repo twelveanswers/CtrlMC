@@ -1,0 +1,26 @@
+package escapemc.module.modules;
+
+import java.util.ArrayList;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+import net.minecraft.block.Block;
+
+public class XRayMod extends Module {
+	
+	public XRayMod() {
+	
+		super("Xray", Keyboard.KEY_X, c);
+
+	}
+
+	public static ArrayList<Block> xrayBlocks = new ArrayList<Block>();
+		
+	@Override
+	public void onEnable()
+	{
+		mc.renderGlobal.loadRenderers();
+	}
+}

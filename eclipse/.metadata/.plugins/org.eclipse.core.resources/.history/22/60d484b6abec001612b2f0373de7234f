@@ -1,0 +1,98 @@
+package escapemc.module;
+
+import escapemc.Event.Event;
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.play.server.SPacketChat;
+
+public class Module {
+		
+		public Minecraft mc = Minecraft.getMinecraft();
+		
+		private String name;
+		private int key;
+		private boolean toggled;
+		private Category category;
+		private KillAuraMode kam;
+		
+		public Module(String nm, int k, Category c){
+			name = nm;
+			key = k;
+			category = c;
+			this.toggled = false;
+		}
+		
+		public void toggle(){
+
+			if(toggled == true){
+				
+				onDisable();
+				this.setToggled(false);
+				onUpdate();
+				
+			}else{
+				
+				onEnable();
+				this.setToggled(true);
+				onUpdate();
+			}
+		}
+		
+		public float partialTicks;
+		
+		public void onEnable(){}
+		public void onDisable(){}
+		public void onUpdate(){}
+		public void onRender2D(float partialTicks) {}
+		public void onToggle(){}
+		public void Tick(){}
+		public void Event(Event e){}
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+		
+		public Category getCategory(){
+			return category;
+		}
+
+		public int getKey() {
+			return key;
+		}
+
+		public void setKey(int key) {
+			this.key = key;
+		}
+
+		public boolean isToggled() {
+			return toggled;
+		}
+
+		public void setToggled(boolean toggled) {
+			this.toggled = toggled;
+		}
+		
+		public boolean onSendChatMessage(String s){
+			return true;
+		}
+		
+		public boolean onRecieveChatMessage(SPacketChat packet){
+			return true;
+		}
+
+		public KillAuraMode getMode() {
+			
+			return kam;
+			
+		}
+		
+		public void setKam(KillAuraMode kam) {
+			
+			this.kam = kam;
+			
+		}
+
+}

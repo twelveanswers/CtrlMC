@@ -9,13 +9,26 @@ import net.minecraft.network.play.client.CPacketPlayer;
 public class NoFall extends Module{
 
 	public NoFall() {
-		super("Nofall", Keyboard.KEY_N, Category.Player);
+		super("Nofall", 0, Category.Player);
 	}
 	
 	public void Tick(){
-		if(mc.thePlayer.fallDistance > 2F){
+		if(mc.thePlayer.fallDistance > -5F){
 			mc.thePlayer.connection.sendPacket(new CPacketPlayer(true));
 		}
+	}
+	
+	@Override
+	public void onEnable() {
+
+		this.setColorToggle(true);
+	
+	}
+	
+	public void onDisable() {
+
+		this.setColorToggle(false);
+		
 	}
 	
 }

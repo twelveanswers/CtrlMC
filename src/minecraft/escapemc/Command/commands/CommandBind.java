@@ -18,7 +18,6 @@ public class CommandBind extends Command {
 		try {
 			if(args[1].equalsIgnoreCase("set")) {
 				for(Module m : ModuleManager.getModules()) {
-					ChatUtil.SendChatMessage(args[2]);
 					if(m.getName().equalsIgnoreCase(args[2])) {
 						if(Keyboard.getKeyIndex(args[3].toUpperCase()) == 0) {
 							ChatUtil.SendChatMessage("Invalid key.");
@@ -40,7 +39,7 @@ public class CommandBind extends Command {
 				}
 			}
 		} catch(Exception e) {
-			ChatUtil.SendChatMessage("Fuck, my code didn't work because of your shitty §acommand.");
+			ChatUtil.SendChatMessage("Fuck, my code didn't work because §aof §ayour §ashitty §acommand.");
 		}
 	}
 	@Override

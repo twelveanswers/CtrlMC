@@ -1,0 +1,30 @@
+package escapemc.module.modules;
+
+import org.lwjgl.input.Keyboard;
+
+import com.google.common.base.Equivalence.Wrapper;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class Hover extends Module {
+
+	public Hover() {
+	
+		super("Hover", Keyboard.KEY_H, Category.Movement);
+
+	}
+
+	@EventHandler
+	private void onUpdate(EventUpdate e) {
+	        Wrapper.mc().thePlayer.motionY = 0;
+	        Wrapper.position(Wrapper.mc().thePlayer.posX + Wrapper.mc().thePlayer.motionX * 11,
+	                Wrapper.mc().thePlayer.posY + (Wrapper.mc().gameSettings.keyBindJump.isKeyDown() ? 0.0625
+	                        : Wrapper.mc().gameSettings.keyBindSneak.isKeyDown() ? -0.0625 : 0),
+	                Wrapper.mc().thePlayer.posZ + Wrapper.mc().thePlayer.motionZ * 11, false);
+	        Wrapper.position(Wrapper.mc().thePlayer.posX + Wrapper.mc().thePlayer.motionX * 11,
+	                Wrapper.mc().theWorld.getHeight(),
+	                Wrapper.mc().thePlayer.posZ + Wrapper.mc().thePlayer.motionZ * 11, false);
+	}
+	
+}

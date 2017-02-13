@@ -8,6 +8,8 @@ import javax.annotation.Nullable;
 
 import com.google.common.collect.Sets;
 
+import escapemc.Util.XRayUtils;
+import escapemc.module.ModuleManager;
 import net.minecraft.block.material.EnumPushReaction;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -458,8 +460,17 @@ public class Block
     @Deprecated
     public int getPackedLightmapCoords(IBlockState state, IBlockAccess source, BlockPos pos)
     {    		
+    	
+    	
         int i = source.getCombinedLight(pos, state.getLightValue());
 
+    	if(ModuleManager.xray.isToggled() == true) {
+    		
+    		return i + 1000000;
+    		
+    	}
+
+        
         if (i == 0 && state.getBlock() instanceof BlockSlab)
         {
             pos = pos.down();
@@ -475,6 +486,13 @@ public class Block
     @Deprecated
     public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side)
     {    	
+    	
+    	if(ModuleManager.xray.isToggled()) {
+    		
+    		return XRayUtils.isXRayBlock(this);
+    		
+    	}
+    	
         AxisAlignedBB axisalignedbb = blockState.getBoundingBox(blockAccess, pos);
 
         switch (side)

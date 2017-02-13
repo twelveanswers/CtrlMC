@@ -1,0 +1,91 @@
+package escapemc.module.modules;
+
+import java.awt.Color;
+
+import org.lwjgl.input.Keyboard;
+
+import escapemc.Util.RenderUtils;
+import escapemc.module.Category;
+import escapemc.module.Module;
+import net.minecraft.entity.EntityLivingBase;
+
+public class ESP extends Module {
+
+	public ESP() {
+	
+		super("ESP", Keyboard.KEY_O, Category.Render);
+
+	}
+
+	@Override
+	public void onEnable() {
+
+		if(!this.isToggled()) {
+			
+			return;
+			
+		}
+	
+		
+		
+	}
+	
+	
+	public static Color color;
+	
+	public void player(EntityLivingBase entity) {
+				
+		double xPos = (entity.lastTickPosX + (entity.posX - entity.lastTickPosX * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosX);
+		double yPos = (entity.lastTickPosY + (entity.posY - entity.lastTickPosY * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosY);
+		double zPos = (entity.lastTickPosX + (entity.posZ - entity.lastTickPosZ * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosZ);
+		
+		render(xPos, yPos, zPos, 0xff0000ff);
+		
+	}
+
+	public void mob(EntityLivingBase entity) {
+		
+		double xPos = (entity.lastTickPosX + (entity.posX - entity.lastTickPosX * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosX);
+		double yPos = (entity.lastTickPosY + (entity.posY - entity.lastTickPosY * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosY);
+		double zPos = (entity.lastTickPosX + (entity.posZ - entity.lastTickPosZ * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosZ);
+		
+		render(xPos, yPos, zPos, 0xffff0000);
+				
+	}
+	
+	public void animal(EntityLivingBase entity) {
+		
+		double xPos = (entity.lastTickPosX + (entity.posX - entity.lastTickPosX * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosX);
+		double yPos = (entity.lastTickPosY + (entity.posY - entity.lastTickPosY * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosY);
+		double zPos = (entity.lastTickPosX + (entity.posZ - entity.lastTickPosZ * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosZ);
+		
+		render(xPos, yPos, zPos, 0xff00ff00);
+		
+	}
+
+	public void passive(EntityLivingBase entity) {
+				
+		double xPos = (entity.lastTickPosX + (entity.posX - entity.lastTickPosX * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosX);
+		double yPos = (entity.lastTickPosY + (entity.posY - entity.lastTickPosY * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosY);
+		double zPos = (entity.lastTickPosX + (entity.posZ - entity.lastTickPosZ * mc.timer.elapsedPartialTicks) - mc.getRenderManager().renderPosZ);
+		
+		render(xPos, yPos, zPos, 0xffcccccc);
+		
+	}
+
+	
+	@Override
+	public void onDisable() {
+
+		
+	
+	}
+
+	public void render(int x, int y, int z, Color color) {
+		
+		RenderUtils.tracerLine(x, y, z, color);
+		
+	}
+	
+	
+}

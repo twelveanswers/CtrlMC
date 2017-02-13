@@ -1,0 +1,14 @@
+package escapemc.module.modules;
+
+import escapemc.module.Category;
+import escapemc.module.Module;
+
+public class AutoArmor extends Module {
+
+	public AutoArmor() {
+	
+		super("AutoArmor", 0, Category.Combat);
+
+	}
+
+}
